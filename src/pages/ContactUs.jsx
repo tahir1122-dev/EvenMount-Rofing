@@ -12,7 +12,7 @@ export default function ContactUsPage() {
           <h1 className="contact-page__title">CONTACT OUR TEAM</h1>
           <p className="contact-page__desc">
             If you require any of our roofing or building services, contact our team
-            in Somerset using the contact details below. A member of our team will 
+            in Wiltshire and Somerset using the contact details below. A member of our team will 
             be in touch with you as soon as possible to provide additional information.
           </p>
           <div className="contact-page__details">
@@ -48,7 +48,7 @@ export default function ContactUsPage() {
                 <option>New Tile &amp; Slate Roofs</option>
                 <option>New Flat Roofs</option>
                 <option>Roof &amp; Chimney Repairs</option>
-                <option>Gutters, Fascias &amp; Soffits</option>
+                <option>Fascia's, Soffits, Guttering</option>
                 <option>Dry Fix Upgrades</option>
                 <option>Wall Cladding</option>
                 <option>Building Services</option>

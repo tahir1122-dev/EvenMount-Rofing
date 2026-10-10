@@ -1,40 +1,40 @@
 import { Link } from 'react-router-dom'
-import { Trophy, CheckCircle, PhoneCall, PoundSterling } from 'lucide-react'
+import { Trophy, CheckCircle, PhoneCall, PoundSterling, Star } from 'lucide-react'
 const services = [
   {
     title: 'NEW ROOFS',
-    desc: 'Upgrade your property with expert roofers in Somerset at Evermount Roofing & Building Ltd. We install new tile and slate roofs for new builds, full reroofs, and replacements, delivering strong, weather-resistant roofing systems.',
-    img: '/gallery6.jpg',
+    desc: 'Upgrade your property with expert roofers in Wiltshire and Somerset at EverMont Roofing & Building Ltd. We install new tile and slate roofs for new builds, full reroofs, and replacements, delivering strong, weather-resistant roofing systems.',
+    img: '/gallery7.jpg',
     link: '/roofing-services/new-roofs',
   },
   {
     title: 'FLAT ROOFS',
-    desc: 'Evermount Roofing & Building Ltd are trusted roofers specialising in EPDM rubber, GRP fibreglass, and torch-on felt flat roofing systems designed for durability, low maintenance, and long-term performance.',
-    img: '/gallery7.jpg',
+    desc: 'EverMont Roofing & Building Ltd are trusted roofers specialising in EPDM rubber, GRP fibreglass, and torch-on felt flat roofing systems designed for durability, low maintenance, and long-term performance.',
+    img: '/flat-roof.jpg',
     link: '/roofing-services/flat-roofs',
   },
   {
     title: 'ROOF REPAIRS',
-    desc: 'Do not let minor issues turn into costly problems. Evermount Roofing & Building Ltd provides fast and effective roof and chimney repairs, including emergency callouts to keep your property safe and secure.',
-    img: '/gallery8.jpg',
+    desc: 'Do not let minor issues turn into costly problems. EverMont Roofing & Building Ltd provides fast and effective roof and chimney repairs, including emergency callouts to keep your property safe and secure.',
+    img: '/gallery9.jpg',
     link: '/roofing-services/roof-repairs',
   },
   {
-    title: 'ROOFLINE',
-    desc: 'Protect your home with expert roofers in Somerset offering high-quality gutters, fascia, and soffits. We install durable, low-maintenance systems that improve drainage, prevent damage, and enhance kerb appeal.',
-    img: '/gallery9.jpg',
+    title: 'FASCIA\'S, SOFFITS, GUTTERING',
+    desc: 'Protect your home with expert roofers in Wiltshire and Somerset offering high-quality gutters, fascia, and soffits. We install durable, low-maintenance systems that improve drainage, prevent damage, and enhance kerb appeal.',
+    img: '/gallery6.jpg',
     link: '/roofing-services/gutters',
   },
   {
     title: 'DRY FIX UPGRADES',
-    desc: 'Expert roofers in Somerset installing dry fix ridge, hip, and verge systems. These modern, maintenance-free solutions improve roof durability, prevent mortar failure, and improve ventilation.',
-    img: '/gallery6.jpg',
+    desc: 'Expert roofers in Wiltshire and Somerset installing dry fix ridge, hip, and verge systems. These modern, maintenance-free solutions improve roof durability, prevent mortar failure, and improve ventilation.',
+    img: '/dryfix.jpg',
     link: '/roofing-services/dry-fix',
   },
   {
     title: 'WALL CLADDING',
-    desc: 'Transform the look of your home with professional builders in Somerset offering modern composite wall cladding. Available in a range of colours, it adds style, insulation, and long-lasting protection.',
-    img: '/wall-page-1.webp',
+    desc: 'Transform the look of your home with professional builders in Wiltshire and Somerset offering modern composite wall cladding. Available in a range of colours, it adds style, insulation, and long-lasting protection.',
+    img: '/wallcladding.jpg',
     link: '/wall-cladding',
   },
 ]
@@ -49,29 +49,29 @@ const projectImgs = [
 ]
 
 const reviews = [
-  { name: 'John Davies', stars: 5, text: 'Excellent service from start to finish. Evermount replaced our old roof and the quality is outstanding. Highly recommend!' },
+  { name: 'John Davies', stars: 5, text: 'Excellent service from start to finish. EverMont replaced our old roof and the quality is outstanding. Highly recommend!' },
   { name: 'Sarah Williams', stars: 5, text: 'Very professional team. They arrived on time and completed the flat roof repair quickly and efficiently. Great value for money.' },
-  { name: 'Mike Evans', stars: 5, text: "Used Evermount for wall cladding and couldn't be happier. The house looks amazing and the workmanship is first class." },
+  { name: 'Mike Evans', stars: 5, text: "Used EverMont for wall cladding and couldn't be happier. The house looks amazing and the workmanship is first class." },
   { name: 'Emma Thomas', stars: 5, text: 'Fast, reliable and great quality work. They sorted our chimney repair the same day. Would definitely use again.' },
 ]
 
 export default function HomePage() {
   return (
     <main>
-      {/* ── HERO ── */}
+      {/* â”€â”€ HERO â”€â”€ */}
       <section className="hero" id="home">
         <div className="hero__overlay" />
         <div className="container hero__inner">
           <div className="hero__content">
-            <p className="hero__eyebrow">EVERMOUNT ROOFING 🏠</p>
+            <p className="hero__eyebrow">EVERMONT ROOFING</p>
             <h1 className="hero__title">BUILT HIGHER.<br />BUILT TO LAST.</h1>
             <div className="hero__desc" style={{ fontSize: '1.05rem', fontWeight: 500 }}>
               <p style={{ marginBottom: '1rem', fontSize: '1.2rem', color: '#fff', fontWeight: 700 }}>Your trusted specialists in all aspects of roofing.</p>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.25rem 0', lineHeight: 1.8 }}>
-                <li>🔹 Complete Roof Replacements</li>
-                <li>🔹 Flat Roofing Solutions</li>
-                <li>🔹 Fascias &amp; Soffits</li>
-                <li>🔹 Roof Repairs &amp; Maintenance</li>
+                <li><CheckCircle size={16} color="var(--orange)" style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Complete Roof Replacements</li>
+                <li><CheckCircle size={16} color="var(--orange)" style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Flat Roofing Solutions</li>
+                <li><CheckCircle size={16} color="var(--orange)" style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Fascia's, Soffits, Guttering</li>
+                <li><CheckCircle size={16} color="var(--orange)" style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Roof Repairs &amp; Maintenance</li>
               </ul>
               <p style={{ marginBottom: '0.25rem' }}>Quality craftsmanship. Reliable service. Roofing built to last.</p>
               <p>Protecting your home, one roof at a time.</p>
@@ -106,7 +106,7 @@ export default function HomePage() {
                   <option>New Tile &amp; Slate Roofs</option>
                   <option>New Flat Roofs</option>
                   <option>Roof &amp; Chimney Repairs</option>
-                  <option>Gutters, Fascias &amp; Soffits</option>
+                  <option>Fascia's, Soffits, Guttering</option>
                   <option>Dry Fix Upgrades</option>
                   <option>Wall Cladding</option>
                   <option>Building Services</option>
@@ -126,12 +126,12 @@ export default function HomePage() {
       <section className="near-you">
         <div className="container near-you__inner">
           <div className="near-you__image">
-            <img src="/Home-Banner.jpg" alt="Evermount Roofing Team" />
+            <img src="/team.jpg" alt="EverMont Roofing Team" />
           </div>
           <div className="near-you__content">
             <h2 className="section-title">ROOFING SERVICES NEAR YOU</h2>
             <p>
-              We are trusted roofers at Evermount Roofing &amp; Building Ltd serving Somerset,
+              We are trusted roofers at EverMont Roofing &amp; Building Ltd serving Wiltshire and Somerset,
               giving our customers the peace of mind they deserve from a quality local
               roofer. Our team of qualified professionals are available to handle any
               roofing challenge you may face.
@@ -141,10 +141,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SERVICES ── */}
+      {/* â”€â”€ SERVICES â”€â”€ */}
       <section className="services" id="services">
         <div className="container">
-          <p className="section-eyebrow">Evermount ROOFING &amp; BUILDING LTD</p>
+          <p className="section-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
           <h2 className="section-heading">OUR SERVICES</h2>
           <div className="services__grid">
             {services.map((s, i) => (
@@ -165,14 +165,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── BUILDING SERVICES ── */}
+      {/* â”€â”€ BUILDING SERVICES â”€â”€ */}
       <section className="building" id="building">
         <div className="container building__inner">
           <div className="building__content">
             <p className="section-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="section-heading left">OUR BUILDING SERVICES</h2>
             <p>
-              Looking for reliable builders in Somerset? Evermount Roofing &amp; Building Ltd
+              Looking for reliable builders in Wiltshire and Somerset? EverMont Roofing &amp; Building Ltd
               delivers a full range of building services, including garden walls, garage
               conversions, patios, and block paving.
             </p>
@@ -185,12 +185,12 @@ export default function HomePage() {
             </div>
           </div>
           <div className="building__image">
-            <img src="/Home-Banner.jpg" alt="Building Services" />
+            <img src="/wall-page-1.webp" alt="Building Services" />
           </div>
         </div>
       </section>
 
-      {/* ── RECENT PROJECTS ── */}
+      {/* â”€â”€ RECENT PROJECTS â”€â”€ */}
       <section className="projects" id="gallery">
         <div className="container projects__inner">
           <div className="projects__gallery">
@@ -205,9 +205,9 @@ export default function HomePage() {
             <p className="section-eyebrow">GALLERY</p>
             <h2 className="section-heading left">OUR RECENT PROJECTS</h2>
             <p>
-              See the quality for yourself. Evermount Roofing &amp; Building Ltd showcases
-              completed projects from trusted roofers in Somerset and experienced
-              builders in Somerset.
+              See the quality for yourself. EverMont Roofing &amp; Building Ltd showcases
+              completed projects from trusted roofers in Wiltshire and Somerset and experienced
+              builders in Wiltshire and Somerset.
             </p>
             <p className="mt-1">
               Our gallery highlights the high standards, attention to detail, and
@@ -218,14 +218,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE ── */}
+      {/* â”€â”€ WHY CHOOSE â”€â”€ */}
       <section className="why-choose">
         <div className="container">
           <p className="section-eyebrow">OUR PROMISE</p>
-          <h2 className="section-heading">WHY CHOOSE Evermount ROOFING &amp; BUILDING LTD IN SOMERSET?</h2>
+          <h2 className="section-heading">WHY CHOOSE EverMont ROOFING &amp; BUILDING LTD IN WILTSHIRE AND SOMERSET?</h2>
           <div className="why-choose__grid">
             {[
-              { icon: <Trophy size={48} strokeWidth={1.5} />, title: 'Experienced Team', desc: 'Over 20 years of professional roofing experience in Somerset.' },
+              { icon: <Trophy size={48} strokeWidth={1.5} />, title: 'Experienced Team', desc: 'Over 20 years of professional roofing experience in Wiltshire and Somerset.' },
               { icon: <CheckCircle size={48} strokeWidth={1.5} />, title: 'Quality Guaranteed', desc: 'We only use premium materials and deliver quality craftsmanship on every job.' },
               { icon: <PhoneCall size={48} strokeWidth={1.5} />, title: 'Fast Response', desc: 'Emergency callouts available. We respond quickly to protect your property.' },
               { icon: <PoundSterling size={48} strokeWidth={1.5} />, title: 'Competitive Pricing', desc: 'Honest, transparent pricing with no hidden charges. Free quotes available.' },
@@ -244,11 +244,15 @@ export default function HomePage() {
       {/* ── TESTIMONIALS ── */}
       <section className="testimonials" id="testimonials">
         <div className="container">
-          <h2 className="section-heading">WHAT OUR CUSTOMERS SAY…</h2>
+          <h2 className="section-heading">WHAT OUR CUSTOMERS SAY...</h2>
           <div className="testimonials__grid">
             {reviews.map((r, i) => (
               <div className="review-card" key={i}>
-                <div className="review-card__stars">{'★'.repeat(r.stars)}</div>
+                <div className="review-card__stars">
+                  {Array.from({ length: r.stars }).map((_, idx) => (
+                    <Star key={idx} size={16} fill="#FFB800" color="#FFB800" />
+                  ))}
+                </div>
                 <p className="review-card__text">"{r.text}"</p>
                 <p className="review-card__name">— {r.name}</p>
                 <div className="review-card__source">
@@ -262,3 +266,4 @@ export default function HomePage() {
     </main>
   )
 }
+

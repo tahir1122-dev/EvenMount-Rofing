@@ -41,7 +41,7 @@ function ComingSoon({ title }) {
       <div className="coming-soon__inner">
         <h1>{title}</h1>
         <p>This page is coming soon. Check back later!</p>
-        <a href="/" className="btn btn--primary mt-2">← Back to Home</a>
+        <a href="/" className="btn btn--primary mt-2">â† Back to Home</a>
       </div>
     </div>
   )

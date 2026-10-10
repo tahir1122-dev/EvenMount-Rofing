@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Lato:wght@400;700&display=swap');
 
-/* ─── RESET & BASE ─────────────────────────────────────────────────────── */
+/* â”€â”€â”€ RESET & BASE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -36,7 +36,7 @@ img { max-width: 100%; display: block; }
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 
-/* ─── TYPOGRAPHY HELPERS ───────────────────────────────────────────────── */
+/* â”€â”€â”€ TYPOGRAPHY HELPERS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .section-eyebrow {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.85rem;
@@ -58,7 +58,7 @@ img { max-width: 100%; display: block; }
 
 .section-heading.left { text-align: left; }
 
-/* ─── BUTTONS ──────────────────────────────────────────────────────────── */
+/* â”€â”€â”€ BUTTONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .btn {
   display: inline-block;
   padding: 0.6rem 1.4rem;
@@ -129,7 +129,7 @@ img { max-width: 100%; display: block; }
 .btn--full { width: 100%; text-align: center; }
 .btn--sm { padding: 0.45rem 1.1rem; font-size: 0.8rem; }
 
-/* ─── HEADER & NAVBAR ──────────────────────────────────────────────────────────── */
+/* â”€â”€â”€ HEADER & NAVBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .site-header {
   position: absolute;
   top: 0;
@@ -297,7 +297,7 @@ img { max-width: 100%; display: block; }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
 
-/* ─── HERO ─────────────────────────────────────────────────────────────── */
+/* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .hero {
   position: relative;
   min-height: 90vh;
@@ -413,7 +413,7 @@ img { max-width: 100%; display: block; }
   gap: 0.75rem;
 }
 
-/* ─── ROOFING NEAR YOU ─────────────────────────────────────────────────── */
+/* â”€â”€â”€ ROOFING NEAR YOU â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .near-you {
   padding: 4rem 0;
   background: var(--white);
@@ -443,7 +443,7 @@ img { max-width: 100%; display: block; }
 .near-you__content h2 { text-align: left; margin-bottom: 1rem; }
 .near-you__content p { line-height: 1.75; color: var(--text); }
 
-/* ─── SERVICES ─────────────────────────────────────────────────────────── */
+/* â”€â”€â”€ SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .services {
   padding: 5rem 0;
   background:
@@ -510,7 +510,7 @@ img { max-width: 100%; display: block; }
   color: rgba(255,255,255,0.8);
 }
 
-/* ─── BUILDING SERVICES ────────────────────────────────────────────────── */
+/* â”€â”€â”€ BUILDING SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .building {
   padding: 5rem 0;
   background: var(--white);
@@ -545,7 +545,7 @@ img { max-width: 100%; display: block; }
 }
 .building__image img { width: 100%; height: 340px; object-fit: cover; }
 
-/* ─── RECENT PROJECTS ──────────────────────────────────────────────────── */
+/* â”€â”€â”€ RECENT PROJECTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .projects {
   padding: 5rem 0;
   background: var(--navy);
@@ -586,7 +586,7 @@ img { max-width: 100%; display: block; }
 .projects__content .section-heading { color: var(--white); }
 .projects__content p { color: rgba(255,255,255,0.75); line-height: 1.75; }
 
-/* ─── WHY CHOOSE ───────────────────────────────────────────────────────── */
+/* â”€â”€â”€ WHY CHOOSE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .why-choose {
   padding: 5rem 0;
   background: var(--grey);
@@ -619,7 +619,7 @@ img { max-width: 100%; display: block; }
 }
 .why-card p { font-size: 0.88rem; line-height: 1.65; color: var(--text); }
 
-/* ─── TESTIMONIALS ─────────────────────────────────────────────────────── */
+/* â”€â”€â”€ TESTIMONIALS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .testimonials {
   padding: 5rem 0;
   background: var(--white);
@@ -667,7 +667,7 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 
-/* ─── FOOTER ───────────────────────────────────────────────────────────── */
+/* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer {
   background: var(--navy);
   color: rgba(255,255,255,0.8);
@@ -721,7 +721,7 @@ img { max-width: 100%; display: block; }
 /* Menu col */
 .footer__links { display: flex; flex-direction: column; gap: 0; }
 .footer__links li { display: flex; align-items: center; gap: 0.45rem; }
-.footer__links li::before { content: '●'; color: var(--blue); font-size: 0.45rem; flex-shrink: 0; }
+.footer__links li::before { content: '-'; color: var(--blue); font-size: 0.83rem; flex-shrink: 0; }
 .footer__links a { font-size: 0.83rem; color: rgba(255,255,255,0.72); padding: 0.2rem 0; transition: color var(--trans); display: block; }
 .footer__links a:hover { color: var(--blue-lt); }
 
@@ -765,7 +765,7 @@ img { max-width: 100%; display: block; }
   color: rgba(255,255,255,0.5);
 }
 
-/* ─── RESPONSIVE ───────────────────────────────────────────────────────── */
+/* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 1024px) {
   .services__grid { grid-template-columns: repeat(2, 1fr); }
   .why-choose__grid { grid-template-columns: repeat(2, 1fr); }
@@ -842,7 +842,7 @@ img { max-width: 100%; display: block; }
   .btn { padding: 0.5rem 1rem; font-size: 0.82rem; }
 }
 
-/* ─── WHATSAPP FLOAT ───────────────────────────────────────────────────── */
+/* â”€â”€â”€ WHATSAPP FLOAT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .whatsapp-float {
   position: fixed;
   bottom: 28px;
@@ -881,7 +881,7 @@ img { max-width: 100%; display: block; }
   .whatsapp-float__label { display: none; }
 }
 
-/* ─── FOOTER EXTRAS ─────────────────────────────────────────────────────── */
+/* â”€â”€â”€ FOOTER EXTRAS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer__contact-item { font-size: 0.88rem; margin-bottom: 0.4rem; color: rgba(255,255,255,0.75); }
 .footer__contact-item a { color: var(--blue-lt); }
 .footer__contact-item a:hover { color: #fff; }
@@ -895,8 +895,9 @@ img { max-width: 100%; display: block; }
 .footer-form textarea::placeholder { color: rgba(255,255,255,0.4); }
 .footer-form textarea:focus { border-color: var(--blue); }
 
-/* ─── COMING SOON ──────────────────────────────────────────────────────── */
+/* â”€â”€â”€ COMING SOON â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .coming-soon { min-height: 60vh; display: flex; align-items: center; justify-content: center; background: var(--grey); }
 .coming-soon__inner { text-align: center; padding: 3rem 2rem; }
 .coming-soon__inner h1 { font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 900; color: var(--navy); margin-bottom: 1rem; }
 .coming-soon__inner p { color: var(--text); font-size: 1.1rem; }
+

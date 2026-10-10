@@ -1,4 +1,4 @@
-/* ── Gallery Page Styles ─────────────────────────────────────────────── */
+/* â”€â”€ Gallery Page Styles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .gallery-page {
   position: relative;
@@ -102,7 +102,7 @@
   transform: translateY(0);
 }
 
-/* ── RESPONSIVE ── */
+/* â”€â”€ RESPONSIVE â”€â”€ */
 @media (max-width: 1200px) {
   .gallery-grid {
     grid-template-columns: repeat(3, 1fr);

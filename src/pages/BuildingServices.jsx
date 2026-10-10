@@ -5,16 +5,16 @@ export default function BuildingServicesPage() {
   return (
     <main>
 
-      {/* ── HERO ── */}
+      {/* â”€â”€ HERO â”€â”€ */}
       <section className="bs-hero">
         <div className="bs-hero__overlay" />
         <div className="container bs-hero__inner">
           <div className="bs-hero__content">
-            <p className="hero__eyebrow">Evermount ROOFING &amp; BUILDING LTD</p>
+            <p className="hero__eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
             <h1 className="bs-hero__title">BUILDING SERVICES</h1>
             <p className="bs-hero__desc">
-              Transform the appearance and performance of your property with Evermount
-              Roofing &amp; Building Ltd, professional builders in Somerset specialising
+              Transform the appearance and performance of your property with EverMont
+              Roofing &amp; Building Ltd, professional builders in Wiltshire and Somerset specialising
               in composite and uPVC wall cladding installation.
             </p>
             <div className="hero__buttons">
@@ -65,12 +65,12 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* ── GARDEN WALLS ── */}
+      {/* â”€â”€ GARDEN WALLS â”€â”€ */}
       <section className="bs-intro">
         <div className="container bs-intro__inner">
-          <h2 className="bs-intro__title">GARDEN WALLS IN SOMERSET</h2>
+          <h2 className="bs-intro__title">GARDEN WALLS IN WILTSHIRE AND SOMERSET</h2>
           <p>
-            Evermount Roofing &amp; Building Ltd are skilled builders in Somerset, we build strong,
+            EverMont Roofing &amp; Building Ltd are skilled builders in Wiltshire and Somerset, we build strong,
             durable, and <span className="text-blue">visually appealing</span> garden walls.
             We build walls using high-quality brick, block, and stone materials to suit your
             property's style and requirements.
@@ -82,21 +82,21 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* ── HARD LANDSCAPING ── */}
+      {/* â”€â”€ HARD LANDSCAPING â”€â”€ */}
       <section className="bs-dark-section">
         <div className="bs-dark-section__bg" />
         <div className="container bs-split bs-split--img-left">
           <div className="bs-split__image">
-            <img src="/buildingservice-1.webp" alt="Hard Landscaping Somerset" />
+            <img src="/buildingservice-1.webp" alt="Hard Landscaping Wiltshire and Somerset" />
           </div>
           <div className="bs-split__content">
-            <p className="section-eyebrow bs-eyebrow--light">Evermount ROOFING &amp; BUILDING LTD</p>
+            <p className="section-eyebrow bs-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
             <h2 className="bs-section-title bs-section-title--white">
-              HARD LANDSCAPING IN SOMERSET
+              HARD LANDSCAPING IN WILTSHIRE AND SOMERSET
             </h2>
             <p className="bs-text--light">
-              Transform your outdoor space with hard landscaping services from Evermount Roofing &amp;
-              Building Ltd. Our builders in Somerset design and install features such as pathways,
+              Transform your outdoor space with hard landscaping services from EverMont Roofing &amp;
+              Building Ltd. Our builders in Wiltshire and Somerset design and install features such as pathways,
               retaining walls, steps, and decorative stonework to create functional and attractive
               garden spaces. We use high-quality materials and precise installation methods to
               ensure long-lasting results. Whether you want a modern or traditional design, our
@@ -107,7 +107,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* ── GARAGE CONVERSIONS ── */}
+      {/* â”€â”€ GARAGE CONVERSIONS â”€â”€ */}
       <section className="bs-light-section">
         <div className="bs-light-section__bg" />
         <div className="container bs-split bs-split--img-right">
@@ -115,8 +115,8 @@ export default function BuildingServicesPage() {
             <p className="section-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="bs-section-title">GARAGE CONVERSIONS</h2>
             <p>
-              Maximise your living space with a garage conversion by Evermount Roofing &amp; Building
-              Ltd. Our experienced builders in Somerset transform unused garages into practical
+              Maximise your living space with a garage conversion by EverMont Roofing &amp; Building
+              Ltd. Our experienced builders in Wiltshire and Somerset transform unused garages into practical
               rooms such as home offices, bedrooms, or living areas.
             </p>
             <p className="mt-1">
@@ -127,19 +127,19 @@ export default function BuildingServicesPage() {
             <Link to="/#contact" className="btn btn--primary mt-1">Contact Us</Link>
           </div>
           <div className="bs-split__image">
-            <img src="/buildingservice-2.webp" alt="Garage Conversion Somerset" />
+            <img src="/buildingservice-2.webp" alt="Garage Conversion Wiltshire and Somerset" />
           </div>
         </div>
       </section>
 
-      {/* ── PATIOS ── */}
+      {/* â”€â”€ PATIOS â”€â”€ */}
       <section className="bs-patios">
         <div className="container bs-patios__inner">
-          <p className="section-eyebrow" style={{ textAlign: 'center' }}>Evermount ROOFING &amp; BUILDING LTD</p>
-          <h2 className="bs-section-title bs-section-title--center">PATIOS IN SOMERSET</h2>
+          <p className="section-eyebrow" style={{ textAlign: 'center' }}>EverMont ROOFING &amp; BUILDING LTD</p>
+          <h2 className="bs-section-title bs-section-title--center">PATIOS IN WILTSHIRE AND SOMERSET</h2>
           <p className="bs-patios__desc">
             Create the perfect outdoor living area with a professionally installed patio from
-            Evermount Roofing &amp; Building Ltd. Our builders in Somerset install patios using natural
+            EverMont Roofing &amp; Building Ltd. Our builders in Wiltshire and Somerset install patios using natural
             stone, porcelain, and concrete paving slabs in a range of colours and finishes. Each
             patio is built on a solid foundation with proper drainage, ensuring durability and
             long-term performance. Whether you are relaxing or entertaining, our patios are
@@ -147,7 +147,7 @@ export default function BuildingServicesPage() {
           </p>
           <div className="bs-social mt-1">
             <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--tiktok">
-              ♪ Follow Our TikTok
+              â™ª Follow Our TikTok
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--facebook">
               f Join Our Facebook
@@ -156,18 +156,18 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* ── BLOCK PAVING ── */}
+      {/* â”€â”€ BLOCK PAVING â”€â”€ */}
       <section className="bs-blockpaving">
         <div className="bs-blockpaving__overlay" />
         <div className="container bs-blockpaving__inner">
           <div className="bs-blockpaving__content">
             <p className="section-eyebrow bs-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
             <h2 className="bs-section-title bs-section-title--white">
-              BLOCK PAVING IN SOMERSET
+              BLOCK PAVING IN WILTSHIRE AND SOMERSET
             </h2>
             <p className="bs-text--light">
-              Evermount Roofing &amp; Building Ltd specialise in block paving for driveways, pathways,
-              and patios across Somerset. Our builders install high-quality block paving in a
+              EverMont Roofing &amp; Building Ltd specialise in block paving for driveways, pathways,
+              and patios across Wiltshire and Somerset. Our builders install high-quality block paving in a
               wide range of styles, patterns, and colours to suit your property.
             </p>
             <p className="bs-text--light mt-1">
@@ -178,9 +178,9 @@ export default function BuildingServicesPage() {
           </div>
           <div className="bs-blockpaving__video">
             <div className="bs-video-thumb">
-              <img src="/buildingservice-1.webp" alt="Evermount Roofing Team" />
+              <img src="/buildingservice-1.webp" alt="EverMont Roofing Team" />
               <div className="bs-video-thumb__play">
-                <span>▶</span>
+                <span>â–¶</span>
               </div>
             </div>
           </div>

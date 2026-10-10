@@ -1,6 +1,6 @@
-/* ── Building Services Page Styles ──────────────────────────────────────── */
+/* â”€â”€ Building Services Page Styles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
-/* ── HERO ── */
+/* â”€â”€ HERO â”€â”€ */
 .bs-hero {
   position: relative;
   min-height: 82vh;
@@ -57,7 +57,7 @@
   border: 1px solid rgba(255,255,255,0.12);
 }
 
-/* ── GARDEN WALLS (intro) ── */
+/* â”€â”€ GARDEN WALLS (intro) â”€â”€ */
 .bs-intro {
   padding: 4rem 0;
   background: #fff;
@@ -80,7 +80,7 @@
 
 .bs-intro p { line-height: 1.8; color: #444; font-size: 0.95rem; }
 
-/* ── SHARED SECTION TITLE ── */
+/* â”€â”€ SHARED SECTION TITLE â”€â”€ */
 .bs-section-title {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
@@ -96,7 +96,7 @@
 .bs-eyebrow--light { color: var(--blue-lt) !important; }
 .bs-text--light { color: rgba(255,255,255,0.82); line-height: 1.75; font-size: 0.94rem; }
 
-/* ── SHARED SPLIT LAYOUT ── */
+/* â”€â”€ SHARED SPLIT LAYOUT â”€â”€ */
 .bs-split {
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@
 .bs-split__content { flex: 1; min-width: 280px; }
 .bs-split__content p { line-height: 1.75; color: #444; font-size: 0.94rem; }
 
-/* ── HARD LANDSCAPING (dark bg) ── */
+/* â”€â”€ HARD LANDSCAPING (dark bg) â”€â”€ */
 .bs-dark-section {
   position: relative;
   padding: 5rem 0;
@@ -145,7 +145,7 @@
 .bs-dark-section .bs-split__content p { color: rgba(255,255,255,0.82); }
 .bs-dark-section .container { position: relative; z-index: 1; }
 
-/* ── GARAGE CONVERSIONS (light bg) ── */
+/* â”€â”€ GARAGE CONVERSIONS (light bg) â”€â”€ */
 .bs-light-section {
   position: relative;
   padding: 5rem 0;
@@ -162,7 +162,7 @@
 .bs-light-section { background: #f0f4f8; }
 .bs-light-section .container { position: relative; z-index: 1; }
 
-/* ── PATIOS ── */
+/* â”€â”€ PATIOS â”€â”€ */
 .bs-patios {
   padding: 4.5rem 0;
   background: #fff;
@@ -187,7 +187,7 @@
   flex-wrap: wrap;
 }
 
-/* ── BLOCK PAVING ── */
+/* â”€â”€ BLOCK PAVING â”€â”€ */
 .bs-blockpaving {
   position: relative;
   padding: 5rem 0;
@@ -263,7 +263,7 @@
 
 .bs-video-thumb:hover .bs-video-thumb__play span { transform: scale(1.1); }
 
-/* ── RESPONSIVE ── */
+/* â”€â”€ RESPONSIVE â”€â”€ */
 @media (max-width: 900px) {
   .bs-split--img-left,
   .bs-split--img-right { flex-direction: column; }

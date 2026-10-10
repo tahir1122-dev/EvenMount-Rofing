@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="container site-header__inner">
         {/* Left Logo */}
         <Link to="/" className="navbar__logo">
-          <img src="/logo-2.jpg" alt="Evermount Roofing" style={{ height: '80px', borderRadius: '4px' }} />
+          <img src="/logo-2.jpg" alt="EverMont Roofing" style={{ height: '80px', borderRadius: '4px' }} />
         </Link>
 
         {/* Right Content */}
@@ -51,7 +51,7 @@ export default function Navbar() {
                   <li><Link to="/roofing-services/new-roofs" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>New Tile &amp; Slate Roofs</Link></li>
                   <li><Link to="/roofing-services/flat-roofs" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>New Flat Roofs</Link></li>
                   <li><Link to="/roofing-services/roof-repairs" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>Roof &amp; Chimney Repairs</Link></li>
-                  <li><Link to="/roofing-services/gutters" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>Gutters, Fascias &amp; Soffits</Link></li>
+                  <li><Link to="/roofing-services/gutters" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>Fascia's, Soffits, Guttering</Link></li>
                   <li><Link to="/roofing-services/dry-fix" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>Dry Fix Upgrades</Link></li>
                 </ul>
               </li>
