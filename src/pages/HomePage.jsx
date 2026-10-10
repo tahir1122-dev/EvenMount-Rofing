@@ -1,34 +1,34 @@
 import { Link } from 'react-router-dom'
-
+import { Trophy, CheckCircle, PhoneCall, PoundSterling } from 'lucide-react'
 const services = [
   {
     title: 'NEW ROOFS',
     desc: 'Upgrade your property with expert roofers in Somerset at Evermount Roofing & Building Ltd. We install new tile and slate roofs for new builds, full reroofs, and replacements, delivering strong, weather-resistant roofing systems.',
-    img: 'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04573-scaled.jpg',
+    img: '/gallery6.jpg',
     link: '/roofing-services/new-roofs',
   },
   {
     title: 'FLAT ROOFS',
     desc: 'Evermount Roofing & Building Ltd are trusted roofers specialising in EPDM rubber, GRP fibreglass, and torch-on felt flat roofing systems designed for durability, low maintenance, and long-term performance.',
-    img: 'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04710-scaled.jpg',
+    img: '/gallery7.jpg',
     link: '/roofing-services/flat-roofs',
   },
   {
     title: 'ROOF REPAIRS',
     desc: 'Do not let minor issues turn into costly problems. Evermount Roofing & Building Ltd provides fast and effective roof and chimney repairs, including emergency callouts to keep your property safe and secure.',
-    img: 'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04764-scaled.jpg',
+    img: '/gallery8.jpg',
     link: '/roofing-services/roof-repairs',
   },
   {
     title: 'ROOFLINE',
     desc: 'Protect your home with expert roofers in Somerset offering high-quality gutters, fascia, and soffits. We install durable, low-maintenance systems that improve drainage, prevent damage, and enhance kerb appeal.',
-    img: 'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04599-scaled.jpg',
+    img: '/gallery9.jpg',
     link: '/roofing-services/gutters',
   },
   {
     title: 'DRY FIX UPGRADES',
     desc: 'Expert roofers in Somerset installing dry fix ridge, hip, and verge systems. These modern, maintenance-free solutions improve roof durability, prevent mortar failure, and improve ventilation.',
-    img: 'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/8-1024x576.jpg',
+    img: '/gallery6.jpg',
     link: '/roofing-services/dry-fix',
   },
   {
@@ -40,12 +40,12 @@ const services = [
 ]
 
 const projectImgs = [
-  'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04573-scaled.jpg',
-  'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04710-scaled.jpg',
+  '/gallery6.jpg',
+  '/gallery7.jpg',
   '/wall-page-1.webp',
-  'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04599-scaled.jpg',
+  '/gallery8.jpg',
   '/wall-images-2.webp',
-  'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/8-1024x576.jpg',
+  '/gallery9.jpg',
 ]
 
 const reviews = [
@@ -222,13 +222,13 @@ export default function HomePage() {
       <section className="why-choose">
         <div className="container">
           <p className="section-eyebrow">OUR PROMISE</p>
-          <h2 className="section-heading">WHY CHOOSE Evermount ROOFING &amp; BUILDING LTD IN SWANSEA?</h2>
+          <h2 className="section-heading">WHY CHOOSE Evermount ROOFING &amp; BUILDING LTD IN SOMERSET?</h2>
           <div className="why-choose__grid">
             {[
-              { icon: '🏆', title: 'Experienced Team', desc: 'Over 20 years of professional roofing experience in Somerset.' },
-              { icon: '✅', title: 'Quality Guaranteed', desc: 'We only use premium materials and deliver quality craftsmanship on every job.' },
-              { icon: '📞', title: 'Fast Response', desc: 'Emergency callouts available. We respond quickly to protect your property.' },
-              { icon: '💷', title: 'Competitive Pricing', desc: 'Honest, transparent pricing with no hidden charges. Free quotes available.' },
+              { icon: <Trophy size={48} strokeWidth={1.5} />, title: 'Experienced Team', desc: 'Over 20 years of professional roofing experience in Somerset.' },
+              { icon: <CheckCircle size={48} strokeWidth={1.5} />, title: 'Quality Guaranteed', desc: 'We only use premium materials and deliver quality craftsmanship on every job.' },
+              { icon: <PhoneCall size={48} strokeWidth={1.5} />, title: 'Fast Response', desc: 'Emergency callouts available. We respond quickly to protect your property.' },
+              { icon: <PoundSterling size={48} strokeWidth={1.5} />, title: 'Competitive Pricing', desc: 'Honest, transparent pricing with no hidden charges. Free quotes available.' },
             ].map((r, i) => (
               <div className="why-card" key={i}>
                 <div className="why-card__icon">{r.icon}</div>

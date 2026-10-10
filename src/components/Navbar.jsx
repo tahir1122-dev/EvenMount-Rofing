@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-
+import { Phone, Mail } from 'lucide-react'
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [roofingOpen, setRoofingOpen] = useState(false)
@@ -17,11 +17,11 @@ export default function Navbar() {
         <div className="header-right">
           
           <div className="header-contact">
-            <a href="tel:07821573382">
-              <span className="contact-icon">📱</span> 07821 573 382
+            <a href="tel:07533356557">
+              <span className="contact-icon"><Phone size={16} /></span> 07533 356557
             </a>
-            <a href="mailto:asap-roofing@hotmail.com">
-              <span className="contact-icon">✉</span> asap-roofing@hotmail.com
+            <a href="mailto:info@evermontroofing.co.uk">
+              <span className="contact-icon"><Mail size={16} /></span> info@evermontroofing.co.uk
             </a>
           </div>
 
@@ -66,6 +66,10 @@ export default function Navbar() {
               <li>
                 <NavLink to="/gallery" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
                   onClick={() => setMenuOpen(false)}>GALLERY</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
+                  onClick={() => setMenuOpen(false)}>CONTACT</NavLink>
               </li>
               <li>
                 <Link to="/#quote" className="nav-cta" onClick={() => setMenuOpen(false)}>

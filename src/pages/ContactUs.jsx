@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Phone, Mail } from 'lucide-react'
 import './ContactUs.css'
 
 export default function ContactUsPage() {
@@ -15,11 +16,11 @@ export default function ContactUsPage() {
             be in touch with you as soon as possible to provide additional information.
           </p>
           <div className="contact-page__details">
-            <a href="tel:07821573382" className="contact-detail-link">
-              <span className="contact-icon">📞</span> 07821 573 382
+            <a href="tel:07533356557" className="contact-detail-link">
+              <span className="contact-icon"><Phone size={16} /></span> 07533 356557
             </a>
-            <a href="mailto:asap-roofing@hotmail.com" className="contact-detail-link">
-              <span className="contact-icon">✉</span> asap-roofing@hotmail.com
+            <a href="mailto:info@evermontroofing.co.uk" className="contact-detail-link">
+              <span className="contact-icon"><Mail size={16} /></span> info@evermontroofing.co.uk
             </a>
           </div>
         </div>

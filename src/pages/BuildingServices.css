@@ -48,7 +48,7 @@
 }
 
 .bs-hero__form {
-  background: rgba(0, 48, 135, 0.82);
+  background: rgba(10, 20, 46, 0.85);
   backdrop-filter: blur(8px);
   border-radius: 12px;
   padding: 2rem;
@@ -272,8 +272,8 @@
 }
 
 @media (max-width: 600px) {
-  .bs-hero { min-height: auto; padding: 2rem 0; }
-  .bs-hero__inner { flex-direction: column; }
+  .bs-hero { min-height: auto; padding: 1rem 0; }
+  .bs-hero__inner { flex-direction: column; padding-top: 6.5rem; gap: 1.5rem; }
   .bs-hero__form { max-width: 100%; }
   .bs-hero__title { font-size: 2rem; }
 }

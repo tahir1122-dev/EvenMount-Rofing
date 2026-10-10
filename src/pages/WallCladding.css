@@ -48,7 +48,7 @@
 }
 
 .wc-hero__form {
-  background: rgba(0, 48, 135, 0.82);
+  background: rgba(10, 20, 46, 0.85);
   backdrop-filter: blur(8px);
   border-radius: 12px;
   padding: 2rem;
@@ -331,7 +331,7 @@
 .wc-gallery-item__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 48, 135, 0.0);
+  background: rgba(255, 107, 0, 0.0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,7 +340,7 @@
 }
 .wc-gallery-item:hover .wc-gallery-item__overlay {
   opacity: 1;
-  background: rgba(0, 48, 135, 0.6);
+  background: rgba(255, 107, 0, 0.75);
 }
 .wc-gallery-item__overlay span {
   color: #fff;
@@ -363,8 +363,8 @@
 }
 
 @media (max-width: 600px) {
-  .wc-hero { min-height: auto; padding: 2rem 0; }
-  .wc-hero__inner { flex-direction: column; }
+  .wc-hero { min-height: auto; padding: 1rem 0; }
+  .wc-hero__inner { flex-direction: column; padding-top: 6.5rem; gap: 1.5rem; }
   .wc-hero__form { max-width: 100%; }
   .wc-hero__title { font-size: 1.9rem; }
   .wc-gallery-grid { grid-template-columns: 1fr 1fr; }

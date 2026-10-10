@@ -3,30 +3,30 @@ import './Gallery.css'
 
 export default function GalleryPage() {
   const images = [
-    '/buildingservice-1.webp',
-    '/buildingservice-2.webp',
+    '/gallery6.jpg',
+    '/gallery7.jpg',
+    '/gallery8.jpg',
+    '/gallery9.jpg',
     '/wall-page-1.webp',
     '/wall-images-2.webp',
-    '/Home-Banner.jpg',
-    '/buildingservice-1.webp',
-    '/wall-page-1.webp',
-    '/buildingservice-2.webp',
-    '/wall-images-2.webp',
-    '/Home-Banner.jpg',
-    '/buildingservice-1.webp',
+    '/gallery6.jpg',
+    '/gallery7.jpg',
+    '/gallery8.jpg',
+    '/gallery9.jpg',
     '/wall-page-1.webp',
     '/wall-images-2.webp',
-    '/buildingservice-2.webp',
-    '/Home-Banner.jpg',
-    '/buildingservice-2.webp',
-    '/buildingservice-1.webp',
-    '/wall-images-2.webp',
-    '/Home-Banner.jpg',
-    '/buildingservice-1.webp',
+    '/gallery6.jpg',
+    '/gallery7.jpg',
+    '/gallery8.jpg',
+    '/gallery9.jpg',
     '/wall-page-1.webp',
     '/wall-images-2.webp',
-    'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04710-scaled.jpg',
-    'https://asaproofingandbuilding.co.uk/wp-content/uploads/2026/04/DSC04573-scaled.jpg'
+    '/gallery6.jpg',
+    '/gallery7.jpg',
+    '/gallery8.jpg',
+    '/gallery9.jpg',
+    '/wall-page-1.webp',
+    '/wall-images-2.webp'
   ]
 
   return (

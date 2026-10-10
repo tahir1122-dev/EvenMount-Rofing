@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Phone, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -38,11 +39,11 @@ export default function Footer() {
           {/* Col 3 – Contact info */}
           <div className="footer__col">
             <h4 className="footer__heading">CONTACT OUR TEAM</h4>
-            <p className="footer__contact-item">
-              📞 Mobile: <a href="tel:07821573382">07821 573 382</a>
+            <p className="footer__contact-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Phone size={16} /> Mobile: <a href="tel:07533356557">07533 356557</a>
             </p>
-            <p className="footer__contact-item">
-              ✉ Email: <a href="mailto:asap-roofing@hotmail.com">asap-roofing@hotmail.com</a>
+            <p className="footer__contact-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Mail size={16} /> Email: <a href="mailto:info@evermontroofing.co.uk">info@evermontroofing.co.uk</a>
             </p>
           </div>
 

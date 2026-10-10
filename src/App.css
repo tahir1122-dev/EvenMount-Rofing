@@ -4,9 +4,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --navy:    #001a4d;
-  --blue:    #002B70;
-  --blue-lt: #0044b3;
+  --navy:    #0a142e;
+  --blue:    #FF6B00; /* Renamed visually to Orange for Brand */
+  --blue-lt: #FF8833;
   --white:   #ffffff;
   --grey:    #f5f5f5;
   --dark:    #111827;
@@ -70,14 +70,40 @@ img { max-width: 100%; display: block; }
   transition: all var(--trans);
   border: 2px solid transparent;
   white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
+
+@keyframes blobPulse {
+  0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+  34% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+  67% { border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; }
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: -10px;
+  background: inherit;
+  filter: brightness(1.1);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover::after {
+  opacity: 1;
+  animation: blobPulse 3s linear infinite;
+}
+
 
 .btn--primary {
   background: var(--blue);
   color: var(--white);
   border-color: var(--blue);
 }
-.btn--primary:hover { background: var(--blue-lt); border-color: var(--blue-lt); transform: translateY(-2px); }
+.btn--primary:hover { border-color: var(--blue-lt); transform: translateY(-2px); }
 
 .btn--outline {
   background: transparent;
@@ -335,7 +361,7 @@ img { max-width: 100%; display: block; }
 
 /* Quote Form */
 .hero__form {
-  background: rgba(0, 48, 135, 0.82);
+  background: rgba(10, 20, 46, 0.85);
   backdrop-filter: blur(8px);
   border-radius: 12px;
   padding: 2rem;
@@ -752,6 +778,10 @@ img { max-width: 100%; display: block; }
 @media (max-width: 768px) {
   /* Nav */
   .hamburger { display: flex; }
+  .header-contact { display: none; }
+  .navbar__logo img { height: 60px !important; }
+  .nav-link { color: var(--dark); font-size: 1rem; padding: 0.8rem; }
+  .nav-link.active { border-bottom: none; color: var(--blue); }
   .nav-links {
     display: none;
     flex-direction: column;
@@ -783,10 +813,10 @@ img { max-width: 100%; display: block; }
   .dropdown.open { display: block; }
 
   /* Hero */
-  .hero__inner { flex-direction: column; }
+  .hero__inner { flex-direction: column; padding-top: 6.5rem; gap: 1.5rem; }
   .hero__form { max-width: 100%; }
   .form-row { grid-template-columns: 1fr; }
-  .hero { min-height: auto; padding: 2rem 0; }
+  .hero { min-height: auto; padding: 1rem 0; }
 
   /* Sections */
   .near-you__inner { flex-direction: column; }
