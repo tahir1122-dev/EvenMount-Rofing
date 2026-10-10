@@ -31,12 +31,12 @@ const services = [
     img: '/dryfix.jpg',
     link: '/roofing-services/dry-fix',
   },
-  {
-    title: 'WALL CLADDING',
-    desc: 'Transform the look of your home with professional builders in Wiltshire and Somerset offering modern composite wall cladding. Available in a range of colours, it adds style, insulation, and long-lasting protection.',
-    img: '/service.jpg',
-    link: '/wall-cladding',
-  },
+  // {
+  //   title: 'WALL CLADDING',
+  //   desc: 'Transform the look of your home with professional builders in Wiltshire and Somerset offering modern composite wall cladding. Available in a range of colours, it adds style, insulation, and long-lasting protection.',
+  //   img: '/service.jpg',
+  //   link: '/wall-cladding',
+  // },
 ]
 
 const projectImgs = [
