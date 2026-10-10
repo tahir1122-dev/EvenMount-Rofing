@@ -1,0 +1,279 @@
+/* ── Building Services Page Styles ──────────────────────────────────────── */
+
+/* ── HERO ── */
+.bs-hero {
+  position: relative;
+  min-height: 82vh;
+  background: url('/buildingservice-1.webp') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.bs-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,5,30,0.88) 0%, rgba(0,10,50,0.65) 55%, rgba(0,10,50,0.35) 100%);
+}
+
+.bs-hero__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.bs-hero__content { flex: 1; min-width: 280px; }
+
+.bs-hero__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.05;
+  margin-bottom: 1.25rem;
+}
+
+.bs-hero__desc {
+  color: rgba(255,255,255,0.88);
+  font-size: 1rem;
+  max-width: 460px;
+  margin-bottom: 1.75rem;
+  line-height: 1.7;
+}
+
+.bs-hero__form {
+  background: rgba(0, 48, 135, 0.82);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* ── GARDEN WALLS (intro) ── */
+.bs-intro {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.bs-intro__inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bs-intro__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 900;
+  color: #111;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+.bs-intro p { line-height: 1.8; color: #444; font-size: 0.95rem; }
+
+/* ── SHARED SECTION TITLE ── */
+.bs-section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 900;
+  color: #111;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.bs-section-title--white { color: #fff; }
+.bs-section-title--center { text-align: center; margin-bottom: 1.25rem; }
+
+.bs-eyebrow--light { color: var(--blue-lt) !important; }
+.bs-text--light { color: rgba(255,255,255,0.82); line-height: 1.75; font-size: 0.94rem; }
+
+/* ── SHARED SPLIT LAYOUT ── */
+.bs-split {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.bs-split--img-left { flex-direction: row-reverse; }
+.bs-split--img-right { flex-direction: row; }
+
+.bs-split__image {
+  flex: 1;
+  min-width: 280px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.bs-split__image img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.bs-split__image:hover img { transform: scale(1.04); }
+
+.bs-split__content { flex: 1; min-width: 280px; }
+.bs-split__content p { line-height: 1.75; color: #444; font-size: 0.94rem; }
+
+/* ── HARD LANDSCAPING (dark bg) ── */
+.bs-dark-section {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.bs-dark-section__bg {
+  position: absolute;
+  inset: 0;
+  background: url('/buildingservice-1.webp') center/cover no-repeat;
+  opacity: 0.18;
+}
+
+.bs-dark-section { background: #1a2340; }
+.bs-dark-section .bs-split__content p { color: rgba(255,255,255,0.82); }
+.bs-dark-section .container { position: relative; z-index: 1; }
+
+/* ── GARAGE CONVERSIONS (light bg) ── */
+.bs-light-section {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.bs-light-section__bg {
+  position: absolute;
+  inset: 0;
+  background: url('/buildingservice-2.webp') center/cover no-repeat;
+  opacity: 0.06;
+}
+
+.bs-light-section { background: #f0f4f8; }
+.bs-light-section .container { position: relative; z-index: 1; }
+
+/* ── PATIOS ── */
+.bs-patios {
+  padding: 4.5rem 0;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.bs-patios__inner { max-width: 800px; margin: 0 auto; }
+
+.bs-patios__desc {
+  line-height: 1.85;
+  color: #444;
+  font-size: 0.94rem;
+  margin-bottom: 1rem;
+}
+
+.bs-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* ── BLOCK PAVING ── */
+.bs-blockpaving {
+  position: relative;
+  padding: 5rem 0;
+  background: var(--navy);
+  overflow: hidden;
+}
+
+.bs-blockpaving__overlay {
+  position: absolute;
+  inset: 0;
+  background: url('/buildingservice-1.webp') center/cover no-repeat;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.bs-blockpaving__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.bs-blockpaving__content { flex: 1; min-width: 280px; }
+
+.bs-blockpaving__video {
+  flex: 1;
+  min-width: 280px;
+  max-width: 480px;
+}
+
+.bs-video-thumb {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+.bs-video-thumb img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.bs-video-thumb__play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.35);
+  transition: background 0.3s ease;
+}
+
+.bs-video-thumb:hover .bs-video-thumb__play { background: rgba(0,0,0,0.5); }
+
+.bs-video-thumb__play span {
+  width: 64px;
+  height: 64px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: var(--navy);
+  padding-left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.bs-video-thumb:hover .bs-video-thumb__play span { transform: scale(1.1); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .bs-split--img-left,
+  .bs-split--img-right { flex-direction: column; }
+  .bs-split__image img { height: 260px; }
+  .bs-blockpaving__inner { flex-direction: column; }
+}
+
+@media (max-width: 600px) {
+  .bs-hero { min-height: auto; padding: 2rem 0; }
+  .bs-hero__inner { flex-direction: column; }
+  .bs-hero__form { max-width: 100%; }
+  .bs-hero__title { font-size: 2rem; }
+}
