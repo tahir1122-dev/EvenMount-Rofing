@@ -85,7 +85,7 @@ export default function WallCladdingPage() {
       <section className="wc-composite">
         <div className="container wc-split wc-split--img-left">
           <div className="wc-split__image">
-            <img src="/wall-page-1.webp" alt="Composite Wall Cladding Wiltshire and Somerset" />
+            <img src="/service.jpg" alt="Composite Wall Cladding Wiltshire and Somerset" />
           </div>
           <div className="wc-split__content">
             <p className="section-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
@@ -198,7 +198,7 @@ export default function WallCladdingPage() {
           </div>
           <div className="wc-why__video">
             <div className="wc-video-thumb">
-              <img src="/wall-page-1.webp" alt="EverMont Roofing Team at Work" />
+              <img src="/service.jpg" alt="EverMont Roofing Team at Work" />
               <div className="wc-video-thumb__play">
                 <span>â–¶</span>
               </div>
@@ -213,7 +213,7 @@ export default function WallCladdingPage() {
           <p className="section-eyebrow" style={{ textAlign: 'center' }}>OUR WORK</p>
           <h2 className="section-heading">WALL CLADDING PROJECTS</h2>
           <div className="wc-gallery-grid">
-            {['/wall-page-1.webp', '/wall-images-2.webp', '/wall-page-1.webp', '/wall-images-2.webp'].map((src, i) => (
+            {['/service.jpg', '/wall-images-2.webp', '/service.jpg', '/wall-images-2.webp'].map((src, i) => (
               <div className="wc-gallery-item" key={i}>
                 <img src={src} alt={`Wall Cladding Project ${i + 1}`} />
                 <div className="wc-gallery-item__overlay">
@@ -227,3 +227,4 @@ export default function WallCladdingPage() {
     </main>
   )
 }
+

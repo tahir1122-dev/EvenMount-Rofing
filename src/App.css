@@ -348,7 +348,7 @@ img { max-width: 100%; display: block; }
 .hero__desc {
   color: rgba(255,255,255,0.85);
   font-size: 1rem;
-  max-width: 480px;
+  max-width: 350px;
   margin-bottom: 1.75rem;
   line-height: 1.6;
 }
@@ -429,12 +429,12 @@ img { max-width: 100%; display: block; }
 .near-you__image {
   flex: 1;
   min-width: 260px;
-  max-width: 480px;
+  max-width: 350px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow);
 }
-.near-you__image img { width: 100%; height: 300px; object-fit: cover; }
+.near-you__image img { width: 100%; height: 250px; object-fit: cover; }
 
 .near-you__content {
   flex: 1;
@@ -900,4 +900,5 @@ img { max-width: 100%; display: block; }
 .coming-soon__inner { text-align: center; padding: 3rem 2rem; }
 .coming-soon__inner h1 { font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 900; color: var(--navy); margin-bottom: 1rem; }
 .coming-soon__inner p { color: var(--text); font-size: 1.1rem; }
+
 

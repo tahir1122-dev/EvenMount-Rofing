@@ -34,7 +34,7 @@ const services = [
   {
     title: 'WALL CLADDING',
     desc: 'Transform the look of your home with professional builders in Wiltshire and Somerset offering modern composite wall cladding. Available in a range of colours, it adds style, insulation, and long-lasting protection.',
-    img: '/wallcladding.jpg',
+    img: '/service.jpg',
     link: '/wall-cladding',
   },
 ]
@@ -131,7 +131,7 @@ export default function HomePage() {
           <div className="near-you__content">
             <h2 className="section-title">ROOFING SERVICES NEAR YOU</h2>
             <p>
-              We are trusted roofers at EverMont Roofing &amp; Building Ltd serving Wiltshire and Somerset,
+              We are trusted roofers at EverMont Roofing Ltd serving Wiltshire and Somerset,
               giving our customers the peace of mind they deserve from a quality local
               roofer. Our team of qualified professionals are available to handle any
               roofing challenge you may face.
@@ -266,4 +266,5 @@ export default function HomePage() {
     </main>
   )
 }
+
 
