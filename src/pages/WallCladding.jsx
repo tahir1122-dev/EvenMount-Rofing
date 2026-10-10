@@ -9,13 +9,13 @@ export default function WallCladdingPage() {
         <div className="wc-hero__overlay" />
         <div className="container wc-hero__inner">
           <div className="wc-hero__content">
-            <p className="hero__eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="hero__eyebrow">EverMont ROOFING LTD</p>
             <h1 className="wc-hero__title">
               WALL CLADDING<br />SERVICES IN WILTSHIRE AND SOMERSET
             </h1>
             <p className="wc-hero__desc">
               Transform the appearance and performance of your property with
-              EverMont Roofing &amp; Building Ltd, professional builders in Wiltshire and Somerset
+              EverMont Roofing Ltd, professional builders in Wiltshire and Somerset
               specialising in composite and uPVC wall cladding installation.
             </p>
             <div className="hero__buttons">
@@ -69,11 +69,11 @@ export default function WallCladdingPage() {
         <div className="container wc-trusted__inner">
           <h2 className="wc-trusted__title">TRUSTED BUILDERS IN WILTSHIRE AND SOMERSET</h2>
           <p>
-            EverMont Roofing &amp; Building Ltd are trusted builders in Wiltshire and Somerset for{' '}
+            EverMont Roofing Ltd are trusted builders in Wiltshire and Somerset for{' '}
             <span className="text-blue">composite and uPVC wall cladding installation</span>.
             Improve your home's appearance, insulation, and protection with our{' '}
             <span className="text-blue">high-quality, low-maintenance cladding solutions</span>.
-            Contact EverMont Roofing &amp; Building Ltd today for a free, no-obligation quote
+            Contact EverMont Roofing Ltd today for a free, no-obligation quote
             and discover how our expert{' '}
             <span className="text-blue">builders in Wiltshire and Somerset</span> can transform your{' '}
             <span className="text-blue">property</span> with modern wall cladding.
@@ -88,10 +88,10 @@ export default function WallCladdingPage() {
             <img src="/service.jpg" alt="Composite Wall Cladding Wiltshire and Somerset" />
           </div>
           <div className="wc-split__content">
-            <p className="section-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="section-eyebrow">EverMont ROOFING LTD</p>
             <h2 className="wc-section-title">COMPOSITE WALL CLADDING</h2>
             <p>
-              EverMont Roofing &amp; Building Ltd are experienced builders in Wiltshire and Somerset
+              EverMont Roofing Ltd are experienced builders in Wiltshire and Somerset
               installing modern composite wall cladding systems. Composite cladding is
               manufactured using a blend of recycled materials and high-performance
               polymers, creating a strong, weather-resistant, and visually appealing finish.
@@ -121,7 +121,7 @@ export default function WallCladdingPage() {
             <p className="section-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="wc-section-title">UPVC WALL CLADDING</h2>
             <p>
-              For a cost-effective and practical solution, EverMont Roofing &amp; Building Ltd
+              For a cost-effective and practical solution, EverMont Roofing Ltd
               install high-quality uPVC external wall cladding in Wiltshire and Somerset. uPVC cladding is
               lightweight, durable, and designed to withstand harsh weather conditions while
               maintaining its appearance over time.
@@ -142,12 +142,12 @@ export default function WallCladdingPage() {
       {/* â”€â”€ COLOURS & FINISHES â”€â”€ */}
       <section className="wc-colours">
         <div className="container wc-colours__inner">
-          <p className="section-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
+          <p className="section-eyebrow">EverMont ROOFING LTD</p>
           <h2 className="wc-section-title wc-section-title--center">
             COLOURS, FINISHES &amp; MODERN DESIGNS
           </h2>
           <p className="wc-colours__desc">
-            EverMont Roofing &amp; Building Ltd offer a wide range of cladding styles to suit both
+            EverMont Roofing Ltd offer a wide range of cladding styles to suit both
             traditional and modern properties. From woodgrain-effect composite panels to sleek,
             contemporary finishes, our{' '}
             <span className="text-blue">builders in Wiltshire and Somerset</span> help you choose the perfect
@@ -181,10 +181,10 @@ export default function WallCladdingPage() {
           <div className="wc-why__content">
             <p className="section-eyebrow wc-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
             <h2 className="wc-section-title wc-section-title--white">
-              WHY CHOOSE EverMont ROOFING &amp;<br />BUILDING LTD IN WILTSHIRE AND SOMERSET?
+              WHY CHOOSE EverMont ROOFING<br />LTD IN WILTSHIRE AND SOMERSET?
             </h2>
             <p className="wc-why__text">
-              EverMont Roofing &amp; Building Ltd provide expert cladding installation for homes
+              EverMont Roofing Ltd provide expert cladding installation for homes
               across Wiltshire and Somerset and surrounding areas. Our experienced builders ensure every
               project is completed safely, efficiently, and to the highest standards.
             </p>

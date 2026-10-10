@@ -9,10 +9,10 @@ export default function RoofRepairsPage() {
         <div className="roof-hero__overlay" />
         <div className="container roof-hero__inner">
           <div className="roof-hero__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h1 className="roof-hero__title">ROOF &amp; CHIMNEY<br />REPAIRS IN WILTSHIRE AND SOMERSET</h1>
             <p className="roof-hero__desc">
-              Do not let minor issues turn into costly problems. EverMont Roofing &amp; Building Ltd
+              Do not let minor issues turn into costly problems. EverMont Roofing Ltd
               provides fast and effective roof and chimney repairs across Wiltshire and Somerset.
             </p>
             <div className="hero__buttons">
@@ -65,7 +65,7 @@ export default function RoofRepairsPage() {
         <div className="container roof-intro__inner">
           <h2 className="roof-section-title roof-section-title--center">FAST &amp; RELIABLE ROOF REPAIRS</h2>
           <p className="roof-text">
-            A damaged roof can quickly lead to leaks, dampness, and structural issues. At EverMont Roofing &amp; Building Ltd, our expert roofers in Wiltshire and Somerset provide fast, reliable, and professional roof repairs to protect your home. Whether it is replacing a few slipped tiles or fixing extensive storm damage, we have the experience to resolve the issue efficiently.
+            A damaged roof can quickly lead to leaks, dampness, and structural issues. At EverMont Roofing Ltd, our expert roofers in Wiltshire and Somerset provide fast, reliable, and professional roof repairs to protect your home. Whether it is replacing a few slipped tiles or fixing extensive storm damage, we have the experience to resolve the issue efficiently.
           </p>
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function RoofRepairsPage() {
             <img src="/wall-page-1.webp" alt="Roof Repairs" />
           </div>
           <div className="roof-split__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h2 className="roof-section-title roof-section-title--white">SLIPPED OR BROKEN TILES</h2>
             <p className="roof-text--light">
               Missing or broken tiles are a common issue that leaves your roof vulnerable to water ingress. Our roofers in Wiltshire and Somerset quickly source matching tiles and secure them firmly in place, ensuring your roof is fully watertight and structurally sound once again.
@@ -94,7 +94,7 @@ export default function RoofRepairsPage() {
             <p className="roof-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="roof-section-title">CHIMNEY REPAIRS &amp; REPOINTING</h2>
             <p className="roof-text">
-              Chimneys are exposed to the harshest weather and can deteriorate over time. EverMont Roofing &amp; Building Ltd offers comprehensive chimney repairs, including repointing brickwork, replacing damaged lead flashing, and securing loose chimney pots.
+              Chimneys are exposed to the harshest weather and can deteriorate over time. EverMont Roofing Ltd offers comprehensive chimney repairs, including repointing brickwork, replacing damaged lead flashing, and securing loose chimney pots.
             </p>
             <p className="roof-text mt-1">
               If your chimney is no longer in use and causing persistent issues, our builders in Wiltshire and Somerset also provide safe and professional chimney removal services.
@@ -108,12 +108,12 @@ export default function RoofRepairsPage() {
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
             <p className="roof-eyebrow roof-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
-            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING &amp;<br />BUILDING LTD IN WILTSHIRE AND SOMERSET</h2>
+            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING<br />LTD IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing &amp; Building Ltd is known for delivering quality, value, and peace of mind on every project.
+              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing Ltd is known for delivering quality, value, and peace of mind on every project.
             </p>
             <p className="roof-text--light mt-1">
-              EverMont Roofing &amp; Building Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
+              EverMont Roofing Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
             </p>
             <Link to="/#quote" className="btn btn--white mt-1">Get Your FREE Quote</Link>
           </div>

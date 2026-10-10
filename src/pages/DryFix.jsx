@@ -9,7 +9,7 @@ export default function DryFixPage() {
         <div className="roof-hero__overlay" />
         <div className="container roof-hero__inner">
           <div className="roof-hero__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h1 className="roof-hero__title">DRY FIX UPGRADES<br />IN WILTSHIRE AND SOMERSET</h1>
             <p className="roof-hero__desc">
               Expert roofers in Wiltshire and Somerset installing dry fix ridge, hip, and verge systems.
@@ -66,7 +66,7 @@ export default function DryFixPage() {
         <div className="container roof-intro__inner">
           <h2 className="roof-section-title roof-section-title--center">MODERN, MAINTENANCE-FREE ROOFING</h2>
           <p className="roof-text">
-            Traditional mortar on roof ridges, hips, and verges degrades over time due to weather exposure, leading to loose tiles and water leaks. EverMont Roofing &amp; Building Ltd provides a modern, long-lasting solution with our dry fix upgrade services. Our roofers in Wiltshire and Somerset install mechanically fixed dry ridge and dry verge systems that eliminate the need for mortar completely.
+            Traditional mortar on roof ridges, hips, and verges degrades over time due to weather exposure, leading to loose tiles and water leaks. EverMont Roofing Ltd provides a modern, long-lasting solution with our dry fix upgrade services. Our roofers in Wiltshire and Somerset install mechanically fixed dry ridge and dry verge systems that eliminate the need for mortar completely.
           </p>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function DryFixPage() {
             <img src="/wall-images-2.webp" alt="Dry Fix Ridge Upgrades" />
           </div>
           <div className="roof-split__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h2 className="roof-section-title roof-section-title--white">DRY RIDGE &amp; VERGE SYSTEMS</h2>
             <p className="roof-text--light">
               Upgrading to a dry fix system ensures your roof tiles are securely fastened to withstand high winds and severe weather. In addition to offering superior stability, dry fix systems incorporate built-in ventilation, helping to prevent condensation build-up in your roof space.
@@ -96,12 +96,12 @@ export default function DryFixPage() {
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
             <p className="roof-eyebrow roof-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
-            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING &amp;<br />BUILDING LTD IN WILTSHIRE AND SOMERSET</h2>
+            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING<br />LTD IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing &amp; Building Ltd is known for delivering quality, value, and peace of mind on every project.
+              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing Ltd is known for delivering quality, value, and peace of mind on every project.
             </p>
             <p className="roof-text--light mt-1">
-              EverMont Roofing &amp; Building Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
+              EverMont Roofing Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
             </p>
             <Link to="/#quote" className="btn btn--white mt-1">Get Your FREE Quote</Link>
           </div>

@@ -78,7 +78,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="footer__bottom">
         <div className="container">
-          <p>EverMont Roofing &amp; Building LTD | All Rights Reserved ©2026 | Website Designed By Social Link Up</p>
+          <p>EverMont Roofing LTD | All Rights Reserved ©2026 | Website Designed By Social Link Up</p>
         </div>
       </div>
     </footer>

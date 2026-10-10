@@ -9,7 +9,7 @@ export default function GuttersPage() {
         <div className="roof-hero__overlay" />
         <div className="container roof-hero__inner">
           <div className="roof-hero__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h1 className="roof-hero__title">GUTTERS, FASCIAS<br />&amp; SOFFITS IN WILTSHIRE AND SOMERSET</h1>
             <p className="roof-hero__desc">
               Protect your home with expert roofers in Wiltshire and Somerset offering high-quality
@@ -66,7 +66,7 @@ export default function GuttersPage() {
         <div className="container roof-intro__inner">
           <h2 className="roof-section-title roof-section-title--center">PROTECT YOUR HOME FROM WATER DAMAGE</h2>
           <p className="roof-text">
-            A fully functioning roofline is essential for protecting your property from water damage. At EverMont Roofing &amp; Building Ltd, our expert roofers in Wiltshire and Somerset provide professional installation, repair, and replacement of gutters, fascias, and soffits. Our high-quality uPVC systems ensure effective rainwater drainage while significantly reducing maintenance requirements.
+            A fully functioning roofline is essential for protecting your property from water damage. At EverMont Roofing Ltd, our expert roofers in Wiltshire and Somerset provide professional installation, repair, and replacement of gutters, fascias, and soffits. Our high-quality uPVC systems ensure effective rainwater drainage while significantly reducing maintenance requirements.
           </p>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function GuttersPage() {
             <img src="/buildingservice-2.webp" alt="Fascias and Soffits" />
           </div>
           <div className="roof-split__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h2 className="roof-section-title roof-section-title--white">uPVC FASCIAS AND SOFFITS</h2>
             <p className="roof-text--light">
               Traditional timber rooflines require regular painting and are prone to rotting over time. Our builders in Wiltshire and Somerset replace outdated timber with durable uPVC fascias and soffits that will not warp, rot, or fade. Available in a variety of colours and finishes, our uPVC roofline products provide a neat, modern appearance that complements your home perfectly.
@@ -98,7 +98,7 @@ export default function GuttersPage() {
               Leaking or blocked gutters can lead to severe structural issues, including damp walls and foundation damage. We supply and install high-capacity uPVC guttering designed to handle heavy rainfall efficiently.
             </p>
             <p className="roof-text mt-1">
-              Our comprehensive guttering services include complete replacements, realignment, and professional cleaning. EverMont Roofing &amp; Building Ltd ensures your drainage system operates flawlessly, directing water safely away from your property year-round.
+              Our comprehensive guttering services include complete replacements, realignment, and professional cleaning. EverMont Roofing Ltd ensures your drainage system operates flawlessly, directing water safely away from your property year-round.
             </p>
           </div>
         </div>
@@ -109,12 +109,12 @@ export default function GuttersPage() {
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
             <p className="roof-eyebrow roof-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
-            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING &amp;<br />BUILDING LTD IN WILTSHIRE AND SOMERSET</h2>
+            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING<br />LTD IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing &amp; Building Ltd is known for delivering quality, value, and peace of mind on every project.
+              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing Ltd is known for delivering quality, value, and peace of mind on every project.
             </p>
             <p className="roof-text--light mt-1">
-              EverMont Roofing &amp; Building Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
+              EverMont Roofing Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
             </p>
             <Link to="/#quote" className="btn btn--white mt-1">Get Your FREE Quote</Link>
           </div>

@@ -3,19 +3,19 @@ import { Trophy, CheckCircle, PhoneCall, PoundSterling, Star } from 'lucide-reac
 const services = [
   {
     title: 'NEW ROOFS',
-    desc: 'Upgrade your property with expert roofers in Wiltshire and Somerset at EverMont Roofing & Building Ltd. We install new tile and slate roofs for new builds, full reroofs, and replacements, delivering strong, weather-resistant roofing systems.',
+    desc: 'Upgrade your property with expert roofers in Wiltshire and Somerset at EverMont Roofing  Ltd. We install new tile and slate roofs for new builds, full reroofs, and replacements, delivering strong, weather-resistant roofing systems.',
     img: '/gallery7.jpg',
     link: '/roofing-services/new-roofs',
   },
   {
     title: 'FLAT ROOFS',
-    desc: 'EverMont Roofing & Building Ltd are trusted roofers specialising in EPDM rubber, GRP fibreglass, and torch-on felt flat roofing systems designed for durability, low maintenance, and long-term performance.',
+    desc: 'EverMont Roofing  Ltd are trusted roofers specialising in EPDM rubber, GRP fibreglass, and torch-on felt flat roofing systems designed for durability, low maintenance, and long-term performance.',
     img: '/flat-roof.jpg',
     link: '/roofing-services/flat-roofs',
   },
   {
     title: 'ROOF REPAIRS',
-    desc: 'Do not let minor issues turn into costly problems. EverMont Roofing & Building Ltd provides fast and effective roof and chimney repairs, including emergency callouts to keep your property safe and secure.',
+    desc: 'Do not let minor issues turn into costly problems. EverMont Roofing  Ltd provides fast and effective roof and chimney repairs, including emergency callouts to keep your property safe and secure.',
     img: '/gallery9.jpg',
     link: '/roofing-services/roof-repairs',
   },
@@ -144,7 +144,7 @@ export default function HomePage() {
       {/* â”€â”€ SERVICES â”€â”€ */}
       <section className="services" id="services">
         <div className="container">
-          <p className="section-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
+          <p className="section-eyebrow">EverMont ROOFING LTD</p>
           <h2 className="section-heading">OUR SERVICES</h2>
           <div className="services__grid">
             {services.map((s, i) => (
@@ -172,7 +172,7 @@ export default function HomePage() {
             <p className="section-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="section-heading left">OUR BUILDING SERVICES</h2>
             <p>
-              Looking for reliable builders in Wiltshire and Somerset? EverMont Roofing &amp; Building Ltd
+              Looking for reliable builders in Wiltshire and Somerset? EverMont Roofing Ltd
               delivers a full range of building services, including garden walls, garage
               conversions, patios, and block paving.
             </p>
@@ -205,7 +205,7 @@ export default function HomePage() {
             <p className="section-eyebrow">GALLERY</p>
             <h2 className="section-heading left">OUR RECENT PROJECTS</h2>
             <p>
-              See the quality for yourself. EverMont Roofing &amp; Building Ltd showcases
+              See the quality for yourself. EverMont Roofing Ltd showcases
               completed projects from trusted roofers in Wiltshire and Somerset and experienced
               builders in Wiltshire and Somerset.
             </p>
@@ -222,7 +222,7 @@ export default function HomePage() {
       <section className="why-choose">
         <div className="container">
           <p className="section-eyebrow">OUR PROMISE</p>
-          <h2 className="section-heading">WHY CHOOSE EverMont ROOFING &amp; BUILDING LTD IN WILTSHIRE AND SOMERSET?</h2>
+          <h2 className="section-heading">WHY CHOOSE EverMont ROOFING LTD IN WILTSHIRE AND SOMERSET?</h2>
           <div className="why-choose__grid">
             {[
               { icon: <Trophy size={48} strokeWidth={1.5} />, title: 'Experienced Team', desc: 'Over 20 years of professional roofing experience in Wiltshire and Somerset.' },

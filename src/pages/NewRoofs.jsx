@@ -9,7 +9,7 @@ export default function NewRoofsPage() {
         <div className="roof-hero__overlay" />
         <div className="container roof-hero__inner">
           <div className="roof-hero__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h1 className="roof-hero__title">TILE &amp; SLATE ROOF<br />INSTALLATIONS</h1>
             <p className="roof-hero__desc">
               We specialise in new roof installations and reroofs, delivering strong,
@@ -66,7 +66,7 @@ export default function NewRoofsPage() {
         <div className="container roof-intro__inner">
           <h2 className="roof-section-title roof-section-title--center">HIGH STANDARDS, PREMIUM MATERIALS</h2>
           <p className="roof-text">
-            Every roof we install is completed to the highest standard, using premium materials and industry-leading techniques. This includes natural slates, high-quality clay tiles, concrete tiles, breathable underlays, and corrosion-resistant fixings. By combining experience, craftsmanship, and the very best materials, EverMont Roofing &amp; Building Ltd ensures every new roof offers long-lasting performance, exceptional durability, and complete peace of mind.
+            Every roof we install is completed to the highest standard, using premium materials and industry-leading techniques. This includes natural slates, high-quality clay tiles, concrete tiles, breathable underlays, and corrosion-resistant fixings. By combining experience, craftsmanship, and the very best materials, EverMont Roofing Ltd ensures every new roof offers long-lasting performance, exceptional durability, and complete peace of mind.
           </p>
           <p className="roof-text mt-1">
             Whether you need a brand-new roof for a new build or a full reroof to replace a worn-out roof, our team handles every project with precision, professionalism, and care.
@@ -78,14 +78,14 @@ export default function NewRoofsPage() {
       <section className="roof-dark-section">
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
-            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING &amp; BUILDING LTD</p>
+            <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
             <h2 className="roof-section-title roof-section-title--white">SLATE ROOFING IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When installing a new slate roof or reroof, EverMont Roofing &amp; Building Ltd use natural slate sourced from trusted suppliers. Slate is a premium roofing material, known for its exceptional strength, longevity, and weather resistance.
+              When installing a new slate roof or reroof, EverMont Roofing Ltd use natural slate sourced from trusted suppliers. Slate is a premium roofing material, known for its exceptional strength, longevity, and weather resistance.
             </p>
             <h3 className="roof-eyebrow roof-eyebrow--light mt-1">BENEFITS OF INSTALLING A SLATE ROOF:</h3>
             <p className="roof-text--light">
-              Every slate roof installed by EverMont Roofing &amp; Building Ltd is fixed with corrosion-resistant nails and breathable underlay systems, ensuring a fully watertight, structurally sound roof. We take care to align each slate perfectly, giving your home a flawless, classic finish that will last for decades. Our team also considers insulation and ventilation during installation, improving energy efficiency and maintaining the longevity of your new roof.
+              Every slate roof installed by EverMont Roofing Ltd is fixed with corrosion-resistant nails and breathable underlay systems, ensuring a fully watertight, structurally sound roof. We take care to align each slate perfectly, giving your home a flawless, classic finish that will last for decades. Our team also considers insulation and ventilation during installation, improving energy efficiency and maintaining the longevity of your new roof.
             </p>
             <div className="mt-1">
               <Link to="/#contact" className="btn btn--primary mr-1">Contact Our Team</Link>
@@ -105,7 +105,7 @@ export default function NewRoofsPage() {
             <p className="roof-eyebrow">QUALITY WORKMANSHIP</p>
             <h2 className="roof-section-title">TILE ROOFING IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text">
-              For homeowners seeking a classic or contemporary finish, EverMont Roofing &amp; Building Ltd are trusted roofers in Wiltshire and Somerset providing premium tile roofing. We install clay and concrete tiles in a wide range of colours and profiles to match your home's design perfectly.
+              For homeowners seeking a classic or contemporary finish, EverMont Roofing Ltd are trusted roofers in Wiltshire and Somerset providing premium tile roofing. We install clay and concrete tiles in a wide range of colours and profiles to match your home's design perfectly.
             </p>
             <p className="roof-text mt-1">
               Each tile roof installation includes robust underlay and breathable membranes to prevent water ingress, along with precision-fitted, corrosion-resistant fixings. Our roofers in Wiltshire and Somerset carefully lay each tile to create a weatherproof, low-maintenance roof that protects your property while improving its kerb appeal.
@@ -126,7 +126,7 @@ export default function NewRoofsPage() {
             <p className="roof-eyebrow roof-eyebrow--light">PROFESSIONAL ROOFING SERVICES WILTSHIRE AND SOMERSET</p>
             <h2 className="roof-section-title roof-section-title--white">ROOF WINDOW INSTALLATION IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When installing a new roof or carrying out a reroof, EverMont Roofing &amp; Building Ltd can integrate roof windows to improve light and ventilation.
+              When installing a new roof or carrying out a reroof, EverMont Roofing Ltd can integrate roof windows to improve light and ventilation.
             </p>
             <p className="roof-text--light mt-1">
               Our roofers in Wiltshire and Somerset fit high-quality, double-glazed roof windows that are fully insulated, energy-efficient, and completely weatherproof.
@@ -138,7 +138,7 @@ export default function NewRoofsPage() {
       {/* â”€â”€ KITS (Intro style) â”€â”€ */}
       <section className="roof-intro">
         <div className="container roof-intro__inner">
-          <p className="roof-eyebrow">EverMont ROOFING &amp; BUILDING LTD</p>
+          <p className="roof-eyebrow">EverMont ROOFING LTD</p>
           <h2 className="roof-section-title roof-section-title--center">PREMIUM FLASHING KITS AND ADVANCED SEALING SYSTEMS</h2>
           <p className="roof-text">
             We use premium flashing kits and advanced sealing systems to ensure every roof window installation is secure, watertight, and fully integrated into your new slate or tile roof. Roof windows are ideal for loft conversions, providing natural light and improving the functionality of your home while maintaining the structural integrity and long-term performance of your new roof.
@@ -155,12 +155,12 @@ export default function NewRoofsPage() {
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
             <p className="roof-eyebrow roof-eyebrow--light">PROTECT YOUR PROPERTY AND ADD TO ITS VALUE</p>
-            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING &amp;<br />BUILDING LTD IN WILTSHIRE AND SOMERSET</h2>
+            <h2 className="roof-section-title roof-section-title--white">WHY CHOOSE EverMont ROOFING<br />LTD IN WILTSHIRE AND SOMERSET</h2>
             <p className="roof-text--light">
-              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing &amp; Building Ltd is known for delivering quality, value, and peace of mind on every project.
+              When choosing roofers in Wiltshire and Somerset or builders in Wiltshire and Somerset, you need a company you can rely on. EverMont Roofing Ltd is known for delivering quality, value, and peace of mind on every project.
             </p>
             <p className="roof-text--light mt-1">
-              EverMont Roofing &amp; Building Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
+              EverMont Roofing Ltd is committed to delivering first class results making us a top choice for roofers and builders in Wiltshire and Somerset.
             </p>
             <Link to="/#quote" className="btn btn--white mt-1">Get Your FREE Quote</Link>
           </div>
