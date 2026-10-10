@@ -77,10 +77,10 @@ export default function HomePage() {
               <p>Protecting your home, one roof at a time.</p>
             </div>
             <div className="hero__buttons">
-              <Link to="#contact" className="btn btn--outline">Contact Us</Link>
+              <Link to="/contact" className="btn btn--outline">Contact Us</Link>
               <Link to="/gallery" className="btn btn--outline">See Our Work</Link>
               <Link to="#testimonials" className="btn btn--white">Reviews</Link>
-              <Link to="#services" className="btn btn--primary">Services</Link>
+              <Link to="/building-services" className="btn btn--primary">Services</Link>
             </div>
           </div>
           <div className="hero__form" id="quote">

@@ -74,7 +74,7 @@ export default function FlatRoofsPage() {
       <section className="roof-dark-section">
         <div className="container roof-split roof-split--img-left">
           <div className="roof-split__image">
-            <img src="/buildingservice-2.webp" alt="EPDM Rubber Roof" />
+            <img src="/new-1.jpg" alt="EPDM Rubber Roof" />
           </div>
           <div className="roof-split__content">
             <p className="roof-eyebrow roof-eyebrow--light">EverMont ROOFING LTD</p>
@@ -104,7 +104,7 @@ export default function FlatRoofsPage() {
             </p>
           </div>
           <div className="roof-split__image">
-            <img src="/wall-images-2.webp" alt="Torch-On Felt Roof" />
+            <img src="/new-2.jpg" alt="Torch-On Felt Roof" />
           </div>
         </div>
       </section>

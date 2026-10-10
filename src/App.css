@@ -214,15 +214,15 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 0.2rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #fff;
-  padding: 0.5rem 0.7rem;
+  padding: 0.5rem 0.5rem;
   border-radius: var(--radius);
   transition: color var(--trans);
   display: flex;
@@ -236,9 +236,9 @@ img { max-width: 100%; display: block; }
   background: var(--blue);
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  padding: 0.55rem 1.1rem;
+  padding: 0.5rem 0.9rem;
   border-radius: 50px;
   transition: all var(--trans);
   white-space: nowrap;

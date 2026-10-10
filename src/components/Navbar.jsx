@@ -10,12 +10,12 @@ export default function Navbar() {
       <div className="container site-header__inner">
         {/* Left Logo */}
         <Link to="/" className="navbar__logo">
-          <img src="/logo-2.jpg" alt="EverMont Roofing" style={{ height: '80px', borderRadius: '4px' }} />
+          <img src="/logo-2.jpg" alt="EverMont Roofing" style={{ height: '100px', borderRadius: '4px' }} />
         </Link>
 
         {/* Right Content */}
         <div className="header-right">
-          
+
           <div className="header-contact">
             <a href="tel:07533356557">
               <span className="contact-icon"><Phone size={16} /></span> 07533 356557
@@ -72,7 +72,7 @@ export default function Navbar() {
                   onClick={() => setMenuOpen(false)}>CONTACT</NavLink>
               </li>
               <li>
-                <Link to="/#quote" className="nav-cta" onClick={() => setMenuOpen(false)}>
+                <Link to="/contact" className="nav-cta" onClick={() => setMenuOpen(false)}>
                   Request a FREE Quote
                 </Link>
               </li>
