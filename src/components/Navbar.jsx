@@ -55,10 +55,10 @@ export default function Navbar() {
                   <li><Link to="/roofing-services/dry-fix" onClick={() => { setMenuOpen(false); setRoofingOpen(false) }}>Dry Fix Upgrades</Link></li>
                 </ul>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/wall-cladding" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
                   onClick={() => setMenuOpen(false)}>WALL CLADDING</NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink to="/building-services" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
                   onClick={() => setMenuOpen(false)}>BUILDING SERVICES</NavLink>
