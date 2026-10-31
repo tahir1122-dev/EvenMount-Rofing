@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Col 1 â€“ Logo + description */}
           <div className="footer__col footer__brand">
             <div className="footer__logo-box">
-              <img src="/logo-2.jpg" alt="EverMont Roofing" style={{ height: '80px', borderRadius: '4px' }} />
+              <img src="/evermont-logo-new.png" alt="EverMont Roofing" style={{ height: '80px' }} />
             </div>
             <p className="footer__brand-text">
               At EverMont Roofing, we offer a wide range of professional
