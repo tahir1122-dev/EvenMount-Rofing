@@ -10,7 +10,17 @@ export default function Navbar() {
       <div className="container site-header__inner">
         {/* Left Logo */}
         <Link to="/" className="navbar__logo">
-          <img src="/evermont-logo-new.png" alt="EverMont Roofing" style={{ height: '100px' }} />
+          <img
+            src="/evermont-logo-new.png"
+            alt="EverMont Roofing"
+            style={{
+              height: '100px',
+              borderRadius: '10px',
+              background: 'rgba(255,255,255,0.92)',
+              boxShadow: '0 0 18px 6px rgba(255,255,255,0.75), 0 2px 12px rgba(0,0,0,0.18)',
+              padding: '4px 8px',
+            }}
+          />
         </Link>
 
         {/* Right Content */}
