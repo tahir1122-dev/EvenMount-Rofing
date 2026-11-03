@@ -1,5 +1,7 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import { Trophy, CheckCircle, PhoneCall, PoundSterling, Star } from 'lucide-react'
+import SEO from '../components/SEO'
+import { localBusinessSchema } from '../data/schemas'
 const services = [
   {
     title: 'NEW ROOFS',
@@ -57,7 +59,14 @@ const reviews = [
 
 export default function HomePage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="Professional Roofers in Wiltshire & Somerset"
+        description="EverMont Roofing Ltd � expert roofing and building contractors in Swindon, Wiltshire and Somerset. Free quotes available. Call 07533 356557."
+        canonical="/"
+        schema={localBusinessSchema}
+      />
+      <main>
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="hero" id="home">
         <div className="hero__overlay" />
@@ -264,6 +273,7 @@ export default function HomePage() {
         </div>
       </section>
     </main>
+    </>
   )
 }
 

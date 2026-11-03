@@ -1,9 +1,18 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import './BuildingServices.css'
+import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function BuildingServicesPage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="Building Services Wiltshire — Walls, Patios, Garages"
+        description="Garden walls, patios, driveways and garage conversions in Wiltshire and Somerset. Quality building work by EverMont Roofing."
+        canonical="/building-services"
+        schema={pageSchemas.buildingServices}
+      />
+      <main>
 
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="bs-hero">
@@ -186,5 +195,6 @@ export default function BuildingServicesPage() {
       </section>
 
     </main>
+    </>
   )
 }

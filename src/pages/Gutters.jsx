@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom'
 import './Roofing.css'
+import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function GuttersPage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="Fascias, Soffits &amp; Guttering Wiltshire"
+        description="Professional fascia, soffit and gutter installation and replacement in Wiltshire and Somerset by EverMont Roofing Ltd."
+        canonical="/roofing-services/gutters"
+        schema={pageSchemas.gutters}
+      />
+      <main>
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="roof-hero" style={{ backgroundImage: "url('/wall-page-1.webp')" }}>
         <div className="roof-hero__overlay" />
@@ -125,5 +134,6 @@ export default function GuttersPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

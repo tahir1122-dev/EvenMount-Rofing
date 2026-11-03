@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom'
 import './Roofing.css'
+import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function DryFixPage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="Dry Fix Roof Upgrades Wiltshire &amp; Somerset"
+        description="Modern dry ridge and verge roofing systems installed across Wiltshire and Somerset. Maintenance-free roofing by EverMont."
+        canonical="/roofing-services/dry-fix"
+        schema={pageSchemas.dryFix}
+      />
+      <main>
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="roof-hero" style={{ backgroundImage: "url('/wall-page-1.webp')" }}>
         <div className="roof-hero__overlay" />
@@ -112,5 +121,6 @@ export default function DryFixPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

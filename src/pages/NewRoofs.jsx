@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom'
 import './Roofing.css'
+import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function NewRoofsPage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="New Tile &amp; Slate Roof Installation in Wiltshire"
+        description="Professional tile and slate roof installations across Wiltshire and Somerset by EverMont Roofing Ltd. Call for a free quote."
+        canonical="/roofing-services/new-roofs"
+        schema={pageSchemas.newRoofs}
+      />
+      <main>
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="roof-hero" style={{ backgroundImage: "url('/wall-images-2.webp')" }}>
         <div className="roof-hero__overlay" />
@@ -171,5 +180,6 @@ export default function NewRoofsPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

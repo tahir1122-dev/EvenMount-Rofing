@@ -1,10 +1,17 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import { Phone, Mail } from 'lucide-react'
 import './ContactUs.css'
+import SEO from '../components/SEO'
 
 export default function ContactUsPage() {
   return (
-    <main className="contact-page">
+    <>
+      <SEO
+        title="Contact EverMont Roofing Ltd — Free Quote"
+        description="Get a free roofing quote from EverMont Roofing Ltd. Call 07533 356557 or email info@evermontroofing.co.uk."
+        canonical="/contact"
+      />
+      <main className="contact-page">
       <div className="contact-page__overlay" />
       <div className="container contact-page__inner">
         
@@ -64,5 +71,6 @@ export default function ContactUsPage() {
 
       </div>
     </main>
+    </>
   )
 }

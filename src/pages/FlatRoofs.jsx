@@ -1,9 +1,18 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import './Roofing.css'
+import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function FlatRoofsPage() {
   return (
-    <main>
+    <>
+      <SEO
+        title="Flat Roof Installation Wiltshire — GRP &amp; EPDM"
+        description="Expert flat roof installers in Wiltshire. GRP fibreglass, EPDM rubber and torch-on felt. Free surveys available."
+        canonical="/roofing-services/flat-roofs"
+        schema={pageSchemas.flatRoofs}
+      />
+      <main>
       {/* â”€â”€ HERO â”€â”€ */}
       <section className="roof-hero" style={{ backgroundImage: "url('/wall-page-1.webp')" }}>
         <div className="roof-hero__overlay" />
@@ -168,5 +177,6 @@ export default function FlatRoofsPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

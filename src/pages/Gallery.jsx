@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 import './Gallery.css'
+import SEO from '../components/SEO'
 
 export default function GalleryPage() {
   const [selectedIndex, setSelectedIndex] = useState(null)
@@ -49,7 +50,13 @@ export default function GalleryPage() {
   }, [selectedIndex])
 
   return (
-    <main className="gallery-page">
+    <>
+      <SEO
+        title="Our Roofing Projects Gallery — EverMont Roofing"
+        description="View completed roofing and building projects by EverMont Roofing Ltd across Wiltshire and Somerset."
+        canonical="/gallery"
+      />
+      <main className="gallery-page">
       <div className="gallery-page__header">
         <h1 className="gallery-page__title">GALLERY</h1>
       </div>
@@ -100,6 +107,7 @@ export default function GalleryPage() {
         </div>
       )}
     </main>
+    </>
   )
 }
 
