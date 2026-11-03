@@ -61,14 +61,14 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Professional Roofers in Wiltshire & Somerset"
-        description="EverMont Roofing Ltd ? expert roofing and building contractors in Swindon, Wiltshire and Somerset. Free quotes available. Call 07533 356557."
+        title="Professional Roofers in Wiltshire"
+        description="EverMont Roofing Ltd ? expert roofing and building contractors in Swindon and Wiltshire. Free quotes available. Call 07533 356557."
         canonical="/"
-        keywords="roofers Wiltshire, roofers Somerset, roofing Swindon, EverMont Roofing, new roofs Wiltshire, flat roofs Somerset, roof repairs Wiltshire, building services Swindon"
+        keywords="roofers Wiltshire, roofing Swindon, EverMont Roofing, new roofs Wiltshire, roof repairs Wiltshire, building services Swindon"
         schema={localBusinessSchema}
       />
       <main>
-      {/* ── HERO ── */}
+      {/* â”€â”€ HERO â”€â”€ */}
       <section className="hero" id="home">
         <div className="hero__overlay" />
         <div className="container hero__inner">
@@ -151,7 +151,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SERVICES ── */}
+      {/* â”€â”€ SERVICES â”€â”€ */}
       <section className="services" id="services">
         <div className="container">
           <p className="section-eyebrow">EverMont ROOFING LTD</p>
@@ -175,7 +175,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── BUILDING SERVICES ── */}
+      {/* â”€â”€ BUILDING SERVICES â”€â”€ */}
       <section className="building" id="building">
         <div className="container building__inner">
           <div className="building__content">
@@ -200,7 +200,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── RECENT PROJECTS ── */}
+      {/* â”€â”€ RECENT PROJECTS â”€â”€ */}
       <section className="projects" id="gallery">
         <div className="container projects__inner">
           <div className="projects__gallery">
@@ -228,7 +228,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE ── */}
+      {/* â”€â”€ WHY CHOOSE â”€â”€ */}
       <section className="why-choose">
         <div className="container">
           <p className="section-eyebrow">OUR PROMISE</p>
@@ -264,10 +264,29 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="review-card__text">"{r.text}"</p>
-                <p className="review-card__name">� {r.name}</p>
+                <p className="review-card__name">ï¿½ {r.name}</p>
                 <div className="review-card__source">
                   <span className="google-g">G</span> Google Review
                 </div>
+          <div style={{ textAlign: 'center', marginTop: '2.5rem', display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=EverMont+Roofing+ltd+Swindon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--primary"
+            >
+              ⭐ Leave Us a Google Review
+            </a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=EverMont+Roofing+ltd+Swindon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--outline"
+              style={{ background: '#fff', color: '#1a2a4a' }}
+            >
+              📍 View Verified Google Profile
+            </a>
+          </div>
               </div>
             ))}
           </div>

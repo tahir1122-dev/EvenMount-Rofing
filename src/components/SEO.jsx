@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async'
 
 const SITE_URL = 'https://evermontroofing.co.uk'
 const DEFAULT_TITLE = 'Professional Roofers in Wiltshire | EverMont Roofing Ltd'
-const DEFAULT_DESC = 'EverMont Roofing Ltd — expert roofing and building contractors in Swindon, Wiltshire & Somerset. Free quotes available. Call 07533 356557.'
+const DEFAULT_DESC = 'EverMont Roofing Ltd — expert roofing and building contractors in Swindon and Wiltshire. Free quotes available. Call 07533 356557.'
 const DEFAULT_IMAGE = `${SITE_URL}/evermont-logo-new.png`
-const DEFAULT_KEYWORDS = 'roofers Wiltshire, roofers Somerset, roofing Swindon, EverMont Roofing, new roofs, flat roofs, roof repairs, gutters fascias soffits, dry fix roofing, building services Wiltshire'
+const DEFAULT_KEYWORDS = 'roofers Wiltshire, roofing Swindon, EverMont Roofing, new roofs Wiltshire, flat roofs Wiltshire, roof repairs, gutters fascias soffits, dry fix roofing, building services Wiltshire'
 
 export default function SEO({
   title,

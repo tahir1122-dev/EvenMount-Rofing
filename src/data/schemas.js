@@ -8,7 +8,7 @@ export const localBusinessSchema = {
   "email": "info@evermontroofing.co.uk",
   "logo": "https://evermontroofing.co.uk/evermont-logo-new.png",
   "image": "https://evermontroofing.co.uk/evermont-logo-new.png",
-  "description": "Professional roofing and building contractors serving Swindon, Wiltshire, and Somerset. Specialists in tile roofs, flat roofs, repairs, gutters, fascias and building services.",
+  "description": "Professional roofing and building contractors serving Swindon and Wiltshire. Specialists in tile roofs, flat roofs, repairs, gutters, fascias and building services.",
   "priceRange": "££",
   "address": {
     "@type": "PostalAddress",
