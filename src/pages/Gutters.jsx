@@ -10,6 +10,7 @@ export default function GuttersPage() {
         title="Fascias, Soffits &amp; Guttering Wiltshire"
         description="Professional fascia, soffit and gutter installation and replacement in Wiltshire and Somerset by EverMont Roofing Ltd."
         canonical="/roofing-services/gutters"
+        keywords="gutters Wiltshire, fascias soffits Somerset, gutter replacement Swindon, uPVC fascias Wiltshire, roofline installation"
         schema={pageSchemas.gutters}
       />
       <main>

@@ -10,6 +10,7 @@ export default function NewRoofsPage() {
         title="New Tile &amp; Slate Roof Installation in Wiltshire"
         description="Professional tile and slate roof installations across Wiltshire and Somerset by EverMont Roofing Ltd. Call for a free quote."
         canonical="/roofing-services/new-roofs"
+        keywords="new roofs Wiltshire, new roofs Somerset, tile roof installation Wiltshire, slate roof Swindon, reroof Wiltshire, EverMont new roofs"
         schema={pageSchemas.newRoofs}
       />
       <main>

@@ -1,4 +1,4 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Trophy, CheckCircle, PhoneCall, PoundSterling, Star } from 'lucide-react'
 import SEO from '../components/SEO'
 import { localBusinessSchema } from '../data/schemas'
@@ -62,12 +62,13 @@ export default function HomePage() {
     <>
       <SEO
         title="Professional Roofers in Wiltshire & Somerset"
-        description="EverMont Roofing Ltd � expert roofing and building contractors in Swindon, Wiltshire and Somerset. Free quotes available. Call 07533 356557."
+        description="EverMont Roofing Ltd ? expert roofing and building contractors in Swindon, Wiltshire and Somerset. Free quotes available. Call 07533 356557."
         canonical="/"
+        keywords="roofers Wiltshire, roofers Somerset, roofing Swindon, EverMont Roofing, new roofs Wiltshire, flat roofs Somerset, roof repairs Wiltshire, building services Swindon"
         schema={localBusinessSchema}
       />
       <main>
-      {/* â”€â”€ HERO â”€â”€ */}
+      {/* ── HERO ── */}
       <section className="hero" id="home">
         <div className="hero__overlay" />
         <div className="container hero__inner">
@@ -131,7 +132,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── ROOFING NEAR YOU ── */}
+      {/* -- ROOFING NEAR YOU -- */}
       <section className="near-you">
         <div className="container near-you__inner">
           <div className="near-you__image">
@@ -150,7 +151,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ SERVICES â”€â”€ */}
+      {/* ── SERVICES ── */}
       <section className="services" id="services">
         <div className="container">
           <p className="section-eyebrow">EverMont ROOFING LTD</p>
@@ -174,7 +175,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ BUILDING SERVICES â”€â”€ */}
+      {/* ── BUILDING SERVICES ── */}
       <section className="building" id="building">
         <div className="container building__inner">
           <div className="building__content">
@@ -199,7 +200,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ RECENT PROJECTS â”€â”€ */}
+      {/* ── RECENT PROJECTS ── */}
       <section className="projects" id="gallery">
         <div className="container projects__inner">
           <div className="projects__gallery">
@@ -227,7 +228,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ WHY CHOOSE â”€â”€ */}
+      {/* ── WHY CHOOSE ── */}
       <section className="why-choose">
         <div className="container">
           <p className="section-eyebrow">OUR PROMISE</p>
@@ -250,7 +251,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
+      {/* -- TESTIMONIALS -- */}
       <section className="testimonials" id="testimonials">
         <div className="container">
           <h2 className="section-heading">WHAT OUR CUSTOMERS SAY...</h2>
@@ -263,7 +264,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="review-card__text">"{r.text}"</p>
-                <p className="review-card__name">— {r.name}</p>
+                <p className="review-card__name">� {r.name}</p>
                 <div className="review-card__source">
                   <span className="google-g">G</span> Google Review
                 </div>

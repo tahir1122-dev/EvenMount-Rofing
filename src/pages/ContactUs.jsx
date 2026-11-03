@@ -1,15 +1,18 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Phone, Mail } from 'lucide-react'
 import './ContactUs.css'
 import SEO from '../components/SEO'
+import { pageSchemas } from '../data/schemas'
 
 export default function ContactUsPage() {
   return (
     <>
       <SEO
-        title="Contact EverMont Roofing Ltd — Free Quote"
+        title="Contact EverMont Roofing Ltd � Free Quote"
         description="Get a free roofing quote from EverMont Roofing Ltd. Call 07533 356557 or email info@evermontroofing.co.uk."
         canonical="/contact"
+        keywords="contact EverMont Roofing, free roofing quote Wiltshire, roofing quote Somerset, call EverMont roofers"
+        schema={pageSchemas.contact}
       />
       <main className="contact-page">
       <div className="contact-page__overlay" />

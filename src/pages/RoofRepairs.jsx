@@ -10,6 +10,7 @@ export default function RoofRepairsPage() {
         title="Roof &amp; Chimney Repairs Wiltshire &amp; Somerset"
         description="Fast, reliable roof and chimney repairs across Wiltshire and Somerset. Emergency callouts available. Call EverMont Roofing."
         canonical="/roofing-services/roof-repairs"
+        keywords="roof repairs Wiltshire, chimney repairs Somerset, emergency roofer Swindon, slipped tiles Wiltshire, roof leak repair"
         schema={pageSchemas.roofRepairs}
       />
       <main>

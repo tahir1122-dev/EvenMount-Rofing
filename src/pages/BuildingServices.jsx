@@ -1,4 +1,4 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './BuildingServices.css'
 import SEO from '../components/SEO'
 import { pageSchemas } from '../data/schemas'
@@ -7,14 +7,15 @@ export default function BuildingServicesPage() {
   return (
     <>
       <SEO
-        title="Building Services Wiltshire — Walls, Patios, Garages"
+        title="Building Services Wiltshire � Walls, Patios, Garages"
         description="Garden walls, patios, driveways and garage conversions in Wiltshire and Somerset. Quality building work by EverMont Roofing."
         canonical="/building-services"
+        keywords="building services Wiltshire, builders Somerset, garden walls Swindon, garage conversion Wiltshire, patios Somerset, block paving Wiltshire"
         schema={pageSchemas.buildingServices}
       />
       <main>
 
-      {/* â”€â”€ HERO â”€â”€ */}
+      {/* ── HERO ── */}
       <section className="bs-hero">
         <div className="bs-hero__overlay" />
         <div className="container bs-hero__inner">
@@ -74,7 +75,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* â”€â”€ GARDEN WALLS â”€â”€ */}
+      {/* ── GARDEN WALLS ── */}
       <section className="bs-intro">
         <div className="container bs-intro__inner">
           <h2 className="bs-intro__title">GARDEN WALLS IN WILTSHIRE AND SOMERSET</h2>
@@ -91,7 +92,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* â”€â”€ HARD LANDSCAPING â”€â”€ */}
+      {/* ── HARD LANDSCAPING ── */}
       <section className="bs-dark-section">
         <div className="bs-dark-section__bg" />
         <div className="container bs-split bs-split--img-left">
@@ -115,7 +116,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* â”€â”€ GARAGE CONVERSIONS â”€â”€ */}
+      {/* ── GARAGE CONVERSIONS ── */}
       <section className="bs-light-section">
         <div className="bs-light-section__bg" />
         <div className="container bs-split bs-split--img-right">
@@ -139,7 +140,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* â”€â”€ PATIOS â”€â”€ */}
+      {/* ── PATIOS ── */}
       <section className="bs-patios">
         <div className="container bs-patios__inner">
           <p className="section-eyebrow" style={{ textAlign: 'center' }}>EverMont ROOFING LTD</p>
@@ -154,7 +155,7 @@ export default function BuildingServicesPage() {
           </p>
           <div className="bs-social mt-1">
             <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--tiktok">
-              â™ª Follow Our TikTok
+              ♪ Follow Our TikTok
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--facebook">
               f Join Our Facebook
@@ -163,7 +164,7 @@ export default function BuildingServicesPage() {
         </div>
       </section>
 
-      {/* â”€â”€ BLOCK PAVING â”€â”€ */}
+      {/* ── BLOCK PAVING ── */}
       <section className="bs-blockpaving">
         <div className="bs-blockpaving__overlay" />
         <div className="container bs-blockpaving__inner">
@@ -187,7 +188,7 @@ export default function BuildingServicesPage() {
             <div className="bs-video-thumb">
               <img src="/buildingservice-1.webp" alt="EverMont Roofing Team" />
               <div className="bs-video-thumb__play">
-                <span>â–¶</span>
+                <span>▶</span>
               </div>
             </div>
           </div>

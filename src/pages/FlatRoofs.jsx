@@ -1,4 +1,4 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Roofing.css'
 import SEO from '../components/SEO'
 import { pageSchemas } from '../data/schemas'
@@ -7,13 +7,14 @@ export default function FlatRoofsPage() {
   return (
     <>
       <SEO
-        title="Flat Roof Installation Wiltshire — GRP &amp; EPDM"
+        title="Flat Roof Installation Wiltshire � GRP &amp; EPDM"
         description="Expert flat roof installers in Wiltshire. GRP fibreglass, EPDM rubber and torch-on felt. Free surveys available."
         canonical="/roofing-services/flat-roofs"
+        keywords="flat roofs Wiltshire, GRP fibreglass roof Somerset, EPDM rubber roofing Wiltshire, flat roof installation Swindon, torch-on felt roof"
         schema={pageSchemas.flatRoofs}
       />
       <main>
-      {/* â”€â”€ HERO â”€â”€ */}
+      {/* ── HERO ── */}
       <section className="roof-hero" style={{ backgroundImage: "url('/wall-page-1.webp')" }}>
         <div className="roof-hero__overlay" />
         <div className="container roof-hero__inner">
@@ -69,7 +70,7 @@ export default function FlatRoofsPage() {
         </div>
       </section>
 
-      {/* â”€â”€ INTRO â”€â”€ */}
+      {/* ── INTRO ── */}
       <section className="roof-intro">
         <div className="container roof-intro__inner">
           <h2 className="roof-section-title roof-section-title--center">GRP FIBREGLASS FLAT ROOFS IN WILTSHIRE AND SOMERSET</h2>
@@ -79,7 +80,7 @@ export default function FlatRoofsPage() {
         </div>
       </section>
 
-      {/* â”€â”€ EPDM RUBBER (Dark) â”€â”€ */}
+      {/* ── EPDM RUBBER (Dark) ── */}
       <section className="roof-dark-section">
         <div className="container roof-split roof-split--img-left">
           <div className="roof-split__image">
@@ -99,7 +100,7 @@ export default function FlatRoofsPage() {
         </div>
       </section>
 
-      {/* â”€â”€ TORCH-ON FELT (Light) â”€â”€ */}
+      {/* ── TORCH-ON FELT (Light) ── */}
       <section className="roof-light-section">
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
@@ -118,7 +119,7 @@ export default function FlatRoofsPage() {
         </div>
       </section>
 
-      {/* â”€â”€ ROOF WINDOWS FOR FLAT ROOFS (Navy) â”€â”€ */}
+      {/* ── ROOF WINDOWS FOR FLAT ROOFS (Navy) ── */}
       <section className="roof-navy-section">
         <div className="container roof-split roof-split--img-left">
           <div className="roof-split__image">
@@ -138,7 +139,7 @@ export default function FlatRoofsPage() {
         </div>
       </section>
 
-      {/* â”€â”€ EDGES, PARAPETS (Intro style) â”€â”€ */}
+      {/* ── EDGES, PARAPETS (Intro style) ── */}
       <section className="roof-intro">
         <div className="container roof-intro__inner">
           <p className="roof-eyebrow">EverMont ROOFING LTD</p>
@@ -150,13 +151,13 @@ export default function FlatRoofsPage() {
             We use high-quality, low-maintenance materials designed to last, providing a neat, professional finish that complements EPDM, GRP, and torch-on felt flat roofs while enhancing the overall look and functionality of your property.
           </p>
           <div className="bs-social mt-1">
-            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--tiktok">â™ª Follow Our TikTok</a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--tiktok">♪ Follow Our TikTok</a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="btn btn--social btn--facebook">f Join Our Facebook</a>
           </div>
         </div>
       </section>
 
-      {/* â”€â”€ WHY CHOOSE (Navy) â”€â”€ */}
+      {/* ── WHY CHOOSE (Navy) ── */}
       <section className="roof-navy-section">
         <div className="container roof-split roof-split--img-right">
           <div className="roof-split__content">
@@ -172,7 +173,7 @@ export default function FlatRoofsPage() {
           </div>
           <div className="roof-split__image roof-video-thumb">
             <img src="/buildingservice-1.webp" alt="Team" />
-            <div className="roof-video-thumb__play"><span>â–¶</span></div>
+            <div className="roof-video-thumb__play"><span>▶</span></div>
           </div>
         </div>
       </section>

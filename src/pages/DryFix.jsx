@@ -10,6 +10,7 @@ export default function DryFixPage() {
         title="Dry Fix Roof Upgrades Wiltshire &amp; Somerset"
         description="Modern dry ridge and verge roofing systems installed across Wiltshire and Somerset. Maintenance-free roofing by EverMont."
         canonical="/roofing-services/dry-fix"
+        keywords="dry fix roofing Wiltshire, dry ridge Somerset, dry verge system Swindon, mortar free roofing Wiltshire"
         schema={pageSchemas.dryFix}
       />
       <main>
